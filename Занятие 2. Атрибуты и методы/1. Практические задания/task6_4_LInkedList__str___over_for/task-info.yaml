@@ -4,15 +4,15 @@ files:
   visible: true
   placeholders:
   - offset: 1817
-    length: 59
-    placeholder_text: 'str(self.list_nodes)  # TODO заменить на list comprehension'
+    length: 74
+    placeholder_text: "str(self.list_nodes)  # TODO заменить на list comprehension"
     initial_state:
       length: 59
       offset: 1817
     initialized_from_dependency: false
-    selected: false
+    selected: true
     status: Unchecked
-    encrypted_possible_answer: 'str(self.list_nodes)  # TODO заменить на list comprehension'
+    encrypted_possible_answer: "str(self.list_nodes)  # TODO заменить на list comprehension"
   text: |
     from typing import Iterable, Optional, Any
 

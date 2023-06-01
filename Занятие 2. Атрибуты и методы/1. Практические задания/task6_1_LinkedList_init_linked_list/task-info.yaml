@@ -3,36 +3,36 @@ files:
 - name: main.py
   visible: true
   placeholders:
-  - offset: 429
-    length: 77
-    placeholder_text: '...  # TODO обернуть все значения в класс Node и поместить
-      их в python список'
+  - offset: 431
+    length: 92
+    placeholder_text: "...  # TODO обернуть все значения в класс Node и поместить\
+      \ их в python список"
     initial_state:
       length: 77
       offset: 429
     initialized_from_dependency: false
-    selected: false
+    selected: true
     status: Unchecked
-    encrypted_possible_answer: '...  # TODO обернуть все значения в класс Node и поместить
-      их в python список'
-  - offset: 516
-    length: 46
-    placeholder_text: '# TODO составьте алгоритм, который свяжет узлы'
+    encrypted_possible_answer: "...  # TODO обернуть все значения в класс Node и п\
+      оместить их в python список"
+  - offset: 533
+    length: 42
+    placeholder_text: "# TODO составьте алгоритм, который свяжет узлы"
     initial_state:
       length: 46
       offset: 516
     initialized_from_dependency: false
-    selected: false
+    selected: true
     status: Unchecked
-    encrypted_possible_answer: '# TODO составьте алгоритм, который свяжет узлы'
-  - offset: 568
-    length: 36
+    encrypted_possible_answer: "# TODO составьте алгоритм, который свяжет узлы"
+  - offset: 702
+    length: 32
     placeholder_text: '# TODO каким должен быть этот метод?'
     initial_state:
       length: 36
       offset: 568
     initialized_from_dependency: false
-    selected: false
+    selected: true
     status: Unchecked
     encrypted_possible_answer: '# TODO каким должен быть этот метод?'
   text: |
