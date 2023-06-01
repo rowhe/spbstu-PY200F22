@@ -5,36 +5,36 @@ files:
   placeholders:
   - offset: 513
     length: 29
-    placeholder_text: "...  # TODO реализовать метод"
+    placeholder_text: '...  # TODO реализовать метод'
     initial_state:
       length: 29
       offset: 513
     initialized_from_dependency: false
     selected: false
     status: Unchecked
-    encrypted_possible_answer: "...  # TODO реализовать метод"
+    encrypted_possible_answer: '...  # TODO реализовать метод'
   - offset: 685
     length: 103
-    placeholder_text: "...  # TODO используя атрибут класса DAY_OF_MONTH вернуть к\
-      оличество дней в запрашиваемом месяце и году"
+    placeholder_text: '...  # TODO используя атрибут класса DAY_OF_MONTH вернуть количество
+      дней в запрашиваемом месяце и году'
     initial_state:
       length: 103
       offset: 685
     initialized_from_dependency: false
     selected: false
     status: Unchecked
-    encrypted_possible_answer: "...  # TODO используя атрибут класса DAY_OF_MONTH\
-      \ вернуть количество дней в запрашиваемом месяце и году"
+    encrypted_possible_answer: '...  # TODO используя атрибут класса DAY_OF_MONTH
+      вернуть количество дней в запрашиваемом месяце и году'
   - offset: 913
     length: 37
-    placeholder_text: "...  # TODO проверить валидность даты"
+    placeholder_text: '...  # TODO проверить валидность даты'
     initial_state:
       length: 37
       offset: 913
     initialized_from_dependency: false
     selected: false
     status: Unchecked
-    encrypted_possible_answer: "...  # TODO проверить валидность даты"
+    encrypted_possible_answer: '...  # TODO проверить валидность даты'
   text: |
     class Date:
         """Класс для работы с датами"""

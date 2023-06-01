@@ -5,26 +5,25 @@ files:
   placeholders:
   - offset: 246
     length: 43
-    placeholder_text: "...  # TODO инициализировать связный список"
+    placeholder_text: '...  # TODO инициализировать связный список'
     initial_state:
       length: 43
       offset: 246
     initialized_from_dependency: false
     selected: false
     status: Unchecked
-    encrypted_possible_answer: "...  # TODO инициализировать связный список"
+    encrypted_possible_answer: '...  # TODO инициализировать связный список'
   - offset: 1481
     length: 75
-    placeholder_text: "...  # TODO реализовать алгоритм добавления узла в конец по\
-      следовательности"
+    placeholder_text: '...  # TODO реализовать алгоритм добавления узла в конец последовательности'
     initial_state:
       length: 75
       offset: 1481
     initialized_from_dependency: false
     selected: false
     status: Unchecked
-    encrypted_possible_answer: "...  # TODO реализовать алгоритм добавления узла в\
-      \ конец последовательности"
+    encrypted_possible_answer: '...  # TODO реализовать алгоритм добавления узла в
+      конец последовательности'
   text: |
     from typing import Any, Iterable, Optional
 
@@ -89,9 +88,6 @@ files:
         ll.append(100)
         print(ll)
   learner_created: false
-- name: __init__.py
-  visible: false
-  learner_created: false
 - name: tests/output.txt
   visible: false
   text: |
@@ -131,6 +127,9 @@ files:
         def set_next(self, next_: Optional["Node"] = None) -> None:
             self.is_valid(next_)
             self.next = next_
+  learner_created: false
+- name: __init__.py
+  visible: false
   learner_created: false
 status: Unchecked
 record: -1

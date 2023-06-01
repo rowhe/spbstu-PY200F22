@@ -1,8 +1,5 @@
 type: output
 files:
-- name: __init__.py
-  visible: false
-  learner_created: false
 - name: tests/output.txt
   visible: false
   text: |
@@ -76,6 +73,9 @@ files:
         print(library_with_books.get_next_book_id())  # проверяем следующий id для непустой библиотеки
 
         print(library_with_books.get_index_by_book_id(1))  # проверяем индекс книги с id = 1
+  learner_created: false
+- name: __init__.py
+  visible: false
   learner_created: false
 status: Unchecked
 record: -1

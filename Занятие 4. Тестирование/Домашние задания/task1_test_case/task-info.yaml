@@ -83,9 +83,6 @@ files:
 
             return self
   learner_created: false
-- name: __init__.py
-  visible: false
-  learner_created: false
 - name: node.py
   visible: true
   text: |
@@ -137,6 +134,9 @@ files:
 
     if __name__ == '__main__':
         unittest.main()
+  learner_created: false
+- name: __init__.py
+  visible: false
   learner_created: false
 status: Unchecked
 record: -1

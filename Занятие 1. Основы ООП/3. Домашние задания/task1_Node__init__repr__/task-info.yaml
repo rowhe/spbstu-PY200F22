@@ -30,36 +30,36 @@ files:
       экземпляра'
   - offset: 552
     length: 40
-    placeholder_text: "...  # TODO инициализировать первый узел"
+    placeholder_text: '...  # TODO инициализировать первый узел'
     initial_state:
       length: 40
       offset: 552
     initialized_from_dependency: false
     selected: false
     status: Unchecked
-    encrypted_possible_answer: "...  # TODO инициализировать первый узел"
+    encrypted_possible_answer: '...  # TODO инициализировать первый узел'
   - offset: 612
     length: 40
-    placeholder_text: "...  # TODO инициализировать второй узел"
+    placeholder_text: '...  # TODO инициализировать второй узел'
     initial_state:
       length: 40
       offset: 612
     initialized_from_dependency: false
     selected: false
     status: Unchecked
-    encrypted_possible_answer: "...  # TODO инициализировать второй узел"
+    encrypted_possible_answer: '...  # TODO инициализировать второй узел'
   - offset: 675
     length: 78
-    placeholder_text: "...  # TODO через атрибут экземпляра устанавливаем первому\
-      \ узлу следующий узел"
+    placeholder_text: '...  # TODO через атрибут экземпляра устанавливаем первому
+      узлу следующий узел'
     initial_state:
       length: 78
       offset: 675
     initialized_from_dependency: false
     selected: false
     status: Unchecked
-    encrypted_possible_answer: "...  # TODO через атрибут экземпляра устанавливаем\
-      \ первому узлу следующий узел"
+    encrypted_possible_answer: '...  # TODO через атрибут экземпляра устанавливаем
+      первому узлу следующий узел'
   text: |
     from typing import Any, Optional
 
@@ -88,14 +88,14 @@ files:
         print(first_node)
         print(second_node)
   learner_created: false
-- name: __init__.py
-  visible: false
-  learner_created: false
 - name: tests/output.txt
   visible: false
   text: |
     Node(1, Node(2, None))
     Node(2, None)
+  learner_created: false
+- name: __init__.py
+  visible: false
   learner_created: false
 status: Unchecked
 record: -1

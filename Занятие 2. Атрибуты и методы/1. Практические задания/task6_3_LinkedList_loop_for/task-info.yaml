@@ -5,14 +5,14 @@ files:
   placeholders:
   - offset: 183
     length: 49
-    placeholder_text: "# TODO атрибут, хранящий длину последовательности"
+    placeholder_text: '# TODO атрибут, хранящий длину последовательности'
     initial_state:
       length: 49
       offset: 183
     initialized_from_dependency: false
     selected: false
     status: Unchecked
-    encrypted_possible_answer: "# TODO атрибут, хранящий длину последовательности"
+    encrypted_possible_answer: '# TODO атрибут, хранящий длину последовательности'
   - offset: 613
     length: 45
     placeholder_text: '# TODO устанавливаем длину последовательности'
@@ -113,9 +113,6 @@ files:
 
         # TODO с помощью цикла for распечатать в столбик все значения связного списка
   learner_created: false
-- name: __init__.py
-  visible: false
-  learner_created: false
 - name: tests/output.txt
   visible: false
   text: |
@@ -161,6 +158,9 @@ files:
         def set_next(self, next_: Optional["Node"] = None) -> None:
             self.is_valid(next_)
             self.next = next_
+  learner_created: false
+- name: __init__.py
+  visible: false
   learner_created: false
 status: Unchecked
 record: -1

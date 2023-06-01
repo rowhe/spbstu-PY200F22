@@ -35,28 +35,28 @@ files:
                   self.area_by_angle(*args)
   - offset: 435
     length: 73
-    placeholder_text: "def area_by_angle(self, a, b, angle):  # TODO сделать стати\
-      ческим методом"
+    placeholder_text: 'def area_by_angle(self, a, b, angle):  # TODO сделать статическим
+      методом'
     initial_state:
       length: 73
       offset: 435
     initialized_from_dependency: false
     selected: false
     status: Unchecked
-    encrypted_possible_answer: "def area_by_angle(self, a, b, angle):  # TODO сдел\
-      ать статическим методом"
+    encrypted_possible_answer: 'def area_by_angle(self, a, b, angle):  # TODO сделать
+      статическим методом'
   - offset: 627
     length: 67
-    placeholder_text: "def area_by_height(self, a, h):  # TODO сделать статическим\
-      \ методом"
+    placeholder_text: 'def area_by_height(self, a, h):  # TODO сделать статическим
+      методом'
     initial_state:
       length: 67
       offset: 627
     initialized_from_dependency: false
     selected: false
     status: Unchecked
-    encrypted_possible_answer: "def area_by_height(self, a, h):  # TODO сделать ст\
-      атическим методом"
+    encrypted_possible_answer: 'def area_by_height(self, a, h):  # TODO сделать статическим
+      методом'
   text: |
     import math
 

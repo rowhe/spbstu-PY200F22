@@ -24,13 +24,13 @@ files:
         glass = Glass(200, 100)  # экземпляр класса
         print(glass.capacity_volume, glass.occupied_volume)
   learner_created: false
-- name: __init__.py
-  visible: false
-  learner_created: false
 - name: tests/output.txt
   visible: false
   text: |
     200 100
+  learner_created: false
+- name: __init__.py
+  visible: false
   learner_created: false
 status: Unchecked
 record: -1

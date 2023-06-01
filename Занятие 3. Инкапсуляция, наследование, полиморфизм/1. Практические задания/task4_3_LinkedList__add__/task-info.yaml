@@ -5,15 +5,14 @@ files:
   placeholders:
   - offset: 2194
     length: 56
-    placeholder_text: "...  # TODO реализовать конкатенацию последовательностей"
+    placeholder_text: '...  # TODO реализовать конкатенацию последовательностей'
     initial_state:
       length: 56
       offset: 2194
     initialized_from_dependency: false
     selected: false
     status: Unchecked
-    encrypted_possible_answer: "...  # TODO реализовать конкатенацию последователь\
-      ностей"
+    encrypted_possible_answer: '...  # TODO реализовать конкатенацию последовательностей'
   text: |
     from typing import Any, Iterable, Optional
 
@@ -98,9 +97,6 @@ files:
         ll = ll + LinkedList([4, 5, 6])
         print(ll)
   learner_created: false
-- name: __init__.py
-  visible: false
-  learner_created: false
 - name: tests/output.txt
   visible: false
   text: |
@@ -143,6 +139,9 @@ files:
         def next(self, next_: Optional["Node"]):
             self.is_valid(next_)
             self._next = next_
+  learner_created: false
+- name: __init__.py
+  visible: false
   learner_created: false
 status: Unchecked
 record: -1

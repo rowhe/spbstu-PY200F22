@@ -5,24 +5,24 @@ files:
   placeholders:
   - offset: 1992
     length: 28
-    placeholder_text: "...  # TODO проверка индекса"
+    placeholder_text: '...  # TODO проверка индекса'
     initial_state:
       length: 28
       offset: 1992
     initialized_from_dependency: false
     selected: false
     status: Unchecked
-    encrypted_possible_answer: "...  # TODO проверка индекса"
+    encrypted_possible_answer: '...  # TODO проверка индекса'
   - offset: 2030
     length: 29
-    placeholder_text: "...  # TODO алгоритм удаления"
+    placeholder_text: '...  # TODO алгоритм удаления'
     initial_state:
       length: 29
       offset: 2030
     initialized_from_dependency: false
     selected: false
     status: Unchecked
-    encrypted_possible_answer: "...  # TODO алгоритм удаления"
+    encrypted_possible_answer: '...  # TODO алгоритм удаления'
   text: |
     from typing import Iterable, Optional, Any
 
@@ -120,9 +120,6 @@ files:
         del linked_list[0]
         print(linked_list)
   learner_created: false
-- name: __init__.py
-  visible: false
-  learner_created: false
 - name: tests/output.txt
   visible: false
   text: |
@@ -164,6 +161,9 @@ files:
         def set_next(self, next_: Optional["Node"] = None) -> None:
             self.is_valid(next_)
             self.next = next_
+  learner_created: false
+- name: __init__.py
+  visible: false
   learner_created: false
 status: Unchecked
 record: -1

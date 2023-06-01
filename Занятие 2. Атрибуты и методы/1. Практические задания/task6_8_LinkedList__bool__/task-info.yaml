@@ -83,9 +83,6 @@ files:
         else:
             print("Список пустой")
   learner_created: false
-- name: __init__.py
-  visible: false
-  learner_created: false
 - name: tests/output.txt
   visible: false
   text: |
@@ -127,6 +124,9 @@ files:
         def set_next(self, next_: Optional["Node"] = None) -> None:
             self.is_valid(next_)
             self.next = next_
+  learner_created: false
+- name: __init__.py
+  visible: false
   learner_created: false
 status: Unchecked
 record: -1

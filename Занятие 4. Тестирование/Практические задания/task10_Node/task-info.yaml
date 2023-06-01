@@ -90,68 +90,62 @@ files:
             next_node = Node("next")
             self.assertEqual(id(Node("tests", next_node).next), id(next_node))
   learner_created: false
-- name: __init__.py
-  visible: false
-  learner_created: false
-- name: tests/__init__.py
-  visible: false
-  learner_created: false
 - name: test_task.py
   visible: true
   placeholders:
   - offset: 56
     length: 48
-    placeholder_text: "...):  # TODO наследоваться от unittest.TestCase"
+    placeholder_text: '...):  # TODO наследоваться от unittest.TestCase'
     initial_state:
       length: 48
       offset: 56
     initialized_from_dependency: false
     selected: false
     status: Unchecked
-    encrypted_possible_answer: "...):  # TODO наследоваться от unittest.TestCase"
+    encrypted_possible_answer: '...):  # TODO наследоваться от unittest.TestCase'
   - offset: 247
     length: 66
-    placeholder_text: "...  # TODO с помощью метода assertIsNone проверить следующ\
-      ий узел"
+    placeholder_text: '...  # TODO с помощью метода assertIsNone проверить следующий
+      узел'
     initial_state:
       length: 66
       offset: 247
     initialized_from_dependency: false
     selected: false
     status: Unchecked
-    encrypted_possible_answer: "...  # TODO с помощью метода assertIsNone проверит\
-      ь следующий узел"
+    encrypted_possible_answer: '...  # TODO с помощью метода assertIsNone проверить
+      следующий узел'
   - offset: 452
     length: 40
-    placeholder_text: "...  # TODO проверить что узлы связались"
+    placeholder_text: '...  # TODO проверить что узлы связались'
     initial_state:
       length: 40
       offset: 452
     initialized_from_dependency: false
     selected: false
     status: Unchecked
-    encrypted_possible_answer: "...  # TODO проверить что узлы связались"
+    encrypted_possible_answer: '...  # TODO проверить что узлы связались'
   - offset: 623
     length: 56
-    placeholder_text: "...  # TODO проверить метод __repr__ без следующего узла"
+    placeholder_text: '...  # TODO проверить метод __repr__ без следующего узла'
     initial_state:
       length: 56
       offset: 623
     initialized_from_dependency: false
     selected: false
     status: Unchecked
-    encrypted_possible_answer: "...  # TODO проверить метод __repr__ без следующег\
-      о узла"
+    encrypted_possible_answer: '...  # TODO проверить метод __repr__ без следующего
+      узла'
   - offset: 685
     length: 62
-    placeholder_text: "...  # TODO пропустить тест с помощью декоратора unittest.skip"
+    placeholder_text: '...  # TODO пропустить тест с помощью декоратора unittest.skip'
     initial_state:
       length: 62
       offset: 685
     initialized_from_dependency: false
     selected: false
     status: Unchecked
-    encrypted_possible_answer: "...  # TODO пропустить тест с помощью декоратора unittest.skip"
+    encrypted_possible_answer: '...  # TODO пропустить тест с помощью декоратора unittest.skip'
   - offset: 973
     length: 40
     placeholder_text: '# TODO проверить строковое представление'
@@ -164,15 +158,15 @@ files:
     encrypted_possible_answer: '# TODO проверить строковое представление'
   - offset: 1052
     length: 57
-    placeholder_text: "...  # TODO проверить метод is_valid при корректных узлах"
+    placeholder_text: '...  # TODO проверить метод is_valid при корректных узлах'
     initial_state:
       length: 57
       offset: 1052
     initialized_from_dependency: false
     selected: false
     status: Unchecked
-    encrypted_possible_answer: "...  # TODO проверить метод is_valid при корректны\
-      х узлах"
+    encrypted_possible_answer: '...  # TODO проверить метод is_valid при корректных
+      узлах'
   - offset: 1119
     length: 99
     placeholder_text: '# TODO с помощью менеджера контакста и метода assertRaises
@@ -219,6 +213,12 @@ files:
             ...  # TODO проверить метод is_valid при корректных узлах
 
             # TODO с помощью менеджера контакста и метода assertRaises проверить корректность вызываемой ошибки
+  learner_created: false
+- name: tests/__init__.py
+  visible: false
+  learner_created: false
+- name: __init__.py
+  visible: false
   learner_created: false
 status: Unchecked
 record: -1

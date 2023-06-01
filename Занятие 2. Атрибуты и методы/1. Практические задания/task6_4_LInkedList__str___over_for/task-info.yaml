@@ -5,14 +5,14 @@ files:
   placeholders:
   - offset: 1817
     length: 59
-    placeholder_text: "str(self.list_nodes)  # TODO заменить на list comprehension"
+    placeholder_text: 'str(self.list_nodes)  # TODO заменить на list comprehension'
     initial_state:
       length: 59
       offset: 1817
     initialized_from_dependency: false
     selected: false
     status: Unchecked
-    encrypted_possible_answer: "str(self.list_nodes)  # TODO заменить на list comprehension"
+    encrypted_possible_answer: 'str(self.list_nodes)  # TODO заменить на list comprehension'
   text: |
     from typing import Iterable, Optional, Any
 
@@ -79,9 +79,6 @@ files:
         linked_list = LinkedList(list_)
         print(linked_list)
   learner_created: false
-- name: __init__.py
-  visible: false
-  learner_created: false
 - name: tests/output.txt
   visible: false
   text: |
@@ -120,6 +117,9 @@ files:
         def set_next(self, next_: Optional["Node"] = None) -> None:
             self.is_valid(next_)
             self.next = next_
+  learner_created: false
+- name: __init__.py
+  visible: false
   learner_created: false
 status: Unchecked
 record: -1

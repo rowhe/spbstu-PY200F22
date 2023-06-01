@@ -42,18 +42,18 @@ files:
     initialized_from_dependency: false
     selected: false
     status: Unchecked
-    encrypted_possible_answer: "Book, LibraryBookIn, LibraryBookOut"
+    encrypted_possible_answer: Book, LibraryBookIn, LibraryBookOut
   - offset: 558
     length: 68
-    placeholder_text: "# TODO что нужно написать, так как Book и PhysicalBook очен\
-      ь похожи?"
+    placeholder_text: '# TODO что нужно написать, так как Book и PhysicalBook очень
+      похожи?'
     initial_state:
       length: 68
       offset: 558
     initialized_from_dependency: false
     selected: false
     status: Unchecked
-    encrypted_possible_answer: "super().__init__(title, author, ISBN)"
+    encrypted_possible_answer: super().__init__(title, author, ISBN)
   - offset: 1141
     length: 17
     placeholder_text: '# TODO а что тут?'
@@ -63,7 +63,7 @@ files:
     initialized_from_dependency: false
     selected: false
     status: Unchecked
-    encrypted_possible_answer: "Book, LibraryBookOut"
+    encrypted_possible_answer: Book, LibraryBookOut
   - offset: 1240
     length: 71
     placeholder_text: '# TODO как произвести расширение конструктора на базе какого-то
@@ -74,7 +74,7 @@ files:
     initialized_from_dependency: false
     selected: false
     status: Unchecked
-    encrypted_possible_answer: "super().__init__(title, author, ISBN)"
+    encrypted_possible_answer: super().__init__(title, author, ISBN)
   - offset: 1476
     length: 26
     placeholder_text: '# TODO разделяем интерфейс'
@@ -84,7 +84,7 @@ files:
     initialized_from_dependency: false
     selected: false
     status: Unchecked
-    encrypted_possible_answer: "Book, LibraryBookOut"
+    encrypted_possible_answer: Book, LibraryBookOut
   - offset: 1584
     length: 23
     placeholder_text: '# TODO аналогично Ebook'
@@ -94,7 +94,7 @@ files:
     initialized_from_dependency: false
     selected: false
     status: Unchecked
-    encrypted_possible_answer: "super().__init__(title, author, ISBN)"
+    encrypted_possible_answer: super().__init__(title, author, ISBN)
   - offset: 1958
     length: 22
     placeholder_text: '# TODO добавляем книги'
@@ -107,16 +107,15 @@ files:
     encrypted_possible_answer: self.books.append(book)
   - offset: 2070
     length: 114
-    placeholder_text: "# ранее писали book.ISBN == ISBN, а что теперь нужно добави\
-      ть к прошлой записи, чтобы обработать нужный интерфейс?"
+    placeholder_text: '# ранее писали book.ISBN == ISBN, а что теперь нужно добавить
+      к прошлой записи, чтобы обработать нужный интерфейс?'
     initial_state:
       length: 114
       offset: 2070
     initialized_from_dependency: false
     selected: false
     status: Unchecked
-    encrypted_possible_answer: "isinstance(book, LibraryBookOut) and book.ISBN ==\
-      \ ISBN"
+    encrypted_possible_answer: isinstance(book, LibraryBookOut) and book.ISBN == ISBN
   - offset: 2364
     length: 37
     placeholder_text: '# дописать проверку для cheek_in_book'
@@ -126,7 +125,7 @@ files:
     initialized_from_dependency: false
     selected: false
     status: Unchecked
-    encrypted_possible_answer: "isinstance(book, LibraryBookIn) and book.ISBN == ISBN"
+    encrypted_possible_answer: isinstance(book, LibraryBookIn) and book.ISBN == ISBN
   text: |
     # TODO загрузить абстрактный метод
     from typing import Union

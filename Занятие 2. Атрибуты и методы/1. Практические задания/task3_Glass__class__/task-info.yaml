@@ -15,15 +15,15 @@ files:
 
         print(type(glass) == glass.__class__)
   learner_created: false
-- name: __init__.py
-  visible: false
-  learner_created: false
 - name: tests/output.txt
   visible: false
   text: |
     <class '__main__.Glass'>
     <class '__main__.Glass'>
     True
+  learner_created: false
+- name: __init__.py
+  visible: false
   learner_created: false
 status: Unchecked
 record: -1

@@ -48,9 +48,6 @@ files:
     if __name__ == '__main__':
         unittest.main()
   learner_created: false
-- name: __init__.py
-  visible: false
-  learner_created: false
 - name: add.py
   visible: true
   text: |
@@ -70,6 +67,9 @@ files:
         @staticmethod
         def add(value1, value2):
             return value1 + value2
+  learner_created: false
+- name: __init__.py
+  visible: false
   learner_created: false
 status: Unchecked
 record: -1

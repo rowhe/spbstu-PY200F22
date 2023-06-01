@@ -5,16 +5,14 @@ files:
   placeholders:
   - offset: 2428
     length: 60
-    placeholder_text: "... # TODO реализовать метод клонирования последовательност\
-      и"
+    placeholder_text: '... # TODO реализовать метод клонирования последовательности'
     initial_state:
       length: 60
       offset: 2428
     initialized_from_dependency: false
     selected: false
     status: Unchecked
-    encrypted_possible_answer: "... # TODO реализовать метод клонирования последов\
-      ательности"
+    encrypted_possible_answer: '... # TODO реализовать метод клонирования последовательности'
   text: |
     from typing import Any, Iterable, Optional
     from itertools import repeat
@@ -109,9 +107,6 @@ files:
         ll = ll * 5
         print(ll)
   learner_created: false
-- name: __init__.py
-  visible: false
-  learner_created: false
 - name: tests/output.txt
   visible: false
   text: |
@@ -154,6 +149,9 @@ files:
         def next(self, next_: Optional["Node"]):
             self.is_valid(next_)
             self._next = next_
+  learner_created: false
+- name: __init__.py
+  visible: false
   learner_created: false
 status: Unchecked
 record: -1
