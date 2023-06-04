@@ -34,7 +34,7 @@ files:
     status: Solved
     encrypted_possible_answer: '# TODO добавить метод get_next'
   - offset: 838
-    length: 81
+    length: 82
     placeholder_text: '# TODO с помощью метода распечатать значение первого узла'
     initial_state:
       length: 57
@@ -97,5 +97,5 @@ files:
 status: Solved
 feedback:
   message: Congratulations!
-  time: "Sun, 04 Jun 2023 18:47:58 UTC"
+  time: "Sun, 04 Jun 2023 18:53:18 UTC"
 record: -1
