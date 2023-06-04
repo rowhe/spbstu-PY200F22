@@ -4,17 +4,17 @@ files:
   visible: true
   placeholders:
   - offset: 314
-    length: 153
-    placeholder_text: '...  # TODO метод должен возвращать строку, по которой можно
-      инициализировать экземпляр класса'
+    length: 149
+    placeholder_text: "...  # TODO метод должен возвращать строку, по которой можн\
+      о инициализировать экземпляр класса"
     initial_state:
       length: 94
       offset: 315
     initialized_from_dependency: false
     selected: true
     status: Solved
-    encrypted_possible_answer: '...  # TODO метод должен возвращать строку, по которой
-      можно инициализировать экземпляр класса'
+    encrypted_possible_answer: "...  # TODO метод должен возвращать строку, по кот\
+      орой можно инициализировать экземпляр класса"
   text: |
     from typing import Union
 
@@ -46,5 +46,5 @@ files:
 status: Solved
 feedback:
   message: Congratulations!
-  time: Mon, 29 May 2023 10:43:53 UTC
+  time: "Sun, 04 Jun 2023 18:38:14 UTC"
 record: -1
