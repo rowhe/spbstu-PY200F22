@@ -15,14 +15,14 @@ files:
     encrypted_possible_answer: '#  TODO инициализировать объект "Стакан"'
   - offset: 299
     length: 122
-    placeholder_text: '...  # TODO инициализировать два объекта типа Glass'
+    placeholder_text: "...  # TODO инициализировать два объекта типа Glass"
     initial_state:
       length: 51
       offset: 218
     initialized_from_dependency: false
     selected: true
     status: Solved
-    encrypted_possible_answer: '...  # TODO инициализировать два объекта типа Glass'
+    encrypted_possible_answer: "...  # TODO инициализировать два объекта типа Glass"
   - offset: 427
     length: 143
     placeholder_text: '# TODO попробовать инициализировать не корректные объекты'
@@ -53,6 +53,6 @@ files:
   learner_created: false
 status: Solved
 feedback:
-  time: Thu, 25 May 2023 15:13:52 UTC
+  time: "Sun, 04 Jun 2023 16:41:10 UTC"
 record: -1
 post_submission_on_open: true
