@@ -3,18 +3,18 @@ files:
 - name: main.py
   visible: true
   placeholders:
-  - offset: 418
-    length: 88
-    placeholder_text: '...  # TODO метод должен возвращать строку, которая содержит
-      человеко-читаемую информацию'
+  - offset: 414
+    length: 92
+    placeholder_text: "...  # TODO метод должен возвращать строку, которая содержи\
+      т человеко-читаемую информацию"
     initial_state:
       length: 89
       offset: 418
     initialized_from_dependency: false
     selected: true
     status: Solved
-    encrypted_possible_answer: '...  # TODO метод должен возвращать строку, которая
-      содержит человеко-читаемую информацию'
+    encrypted_possible_answer: "...  # TODO метод должен возвращать строку, котора\
+      я содержит человеко-читаемую информацию"
   text: |
     from typing import Union
 
@@ -49,5 +49,5 @@ files:
 status: Solved
 feedback:
   message: Congratulations!
-  time: Mon, 29 May 2023 10:46:27 UTC
+  time: "Sun, 04 Jun 2023 18:43:35 UTC"
 record: -1
