@@ -18,7 +18,7 @@ files:
       offset: 399
     initialized_from_dependency: false
     selected: false
-    status: Unchecked
+    status: Failed
     encrypted_possible_answer: '# TODO установить значение следующего узла с помощью
       метода set_next'
   - offset: 601
@@ -30,8 +30,8 @@ files:
       length: 64
       offset: 601
     initialized_from_dependency: false
-    selected: false
-    status: Unchecked
+    selected: true
+    status: Failed
     encrypted_possible_answer: |-
       # TODO метод проверки корректности связываемого узла
               ...
@@ -44,8 +44,8 @@ files:
       length: 98
       offset: 739
     initialized_from_dependency: false
-    selected: false
-    status: Unchecked
+    selected: true
+    status: Failed
     encrypted_possible_answer: |-
       # TODO метод должен проверять корректность узла и устанавливать значение атрибуту next
               ...
@@ -57,7 +57,7 @@ files:
       offset: 871
     initialized_from_dependency: false
     selected: false
-    status: Unchecked
+    status: Failed
     encrypted_possible_answer: '# TODO инициализируйте два узла с любыми значеними'
   - offset: 927
     length: 36
@@ -67,7 +67,7 @@ files:
       offset: 927
     initialized_from_dependency: false
     selected: false
-    status: Unchecked
+    status: Failed
     encrypted_possible_answer: '# TODO свяжите первый узел со вторым'
   text: |
     from typing import Any, Optional
@@ -109,5 +109,12 @@ files:
 - name: __init__.py
   visible: false
   learner_created: false
-status: Unchecked
+status: Failed
+feedback:
+  message: Incorrect
+  time: Fri, 02 Jun 2023 14:44:48 UTC
+  expected: |
+    Node(1, Node(2, None))
+    Node(2, None)
+  actual: <no output>
 record: -1

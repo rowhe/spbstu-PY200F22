@@ -4,7 +4,7 @@ files:
   visible: true
   placeholders:
   - offset: 99
-    length: 358
+    length: 330
     placeholder_text: |-
       # TODO сделать методом класса
           def area(self, *args):
@@ -20,7 +20,7 @@ files:
       length: 330
       offset: 99
     initialized_from_dependency: false
-    selected: true
+    selected: false
     status: Solved
     encrypted_possible_answer: |-
       # TODO сделать методом класса
@@ -33,30 +33,30 @@ files:
                   self.area_by_height(*args)
               if len(args) == 3:
                   self.area_by_angle(*args)
-  - offset: 663
-    length: 22
-    placeholder_text: "def area_by_angle(self, a, b, angle):  # TODO сделать стати\
-      ческим методом"
+  - offset: 435
+    length: 73
+    placeholder_text: 'def area_by_angle(self, a, b, angle):  # TODO сделать статическим
+      методом'
     initial_state:
       length: 73
       offset: 435
     initialized_from_dependency: false
     selected: true
     status: Solved
-    encrypted_possible_answer: "def area_by_angle(self, a, b, angle):  # TODO сдел\
-      ать статическим методом"
-  - offset: 663
-    length: 83
-    placeholder_text: "def area_by_height(self, a, h):  # TODO сделать статическим\
-      \ методом"
+    encrypted_possible_answer: 'def area_by_angle(self, a, b, angle):  # TODO сделать
+      статическим методом'
+  - offset: 627
+    length: 67
+    placeholder_text: 'def area_by_height(self, a, h):  # TODO сделать статическим
+      методом'
     initial_state:
       length: 67
       offset: 627
     initialized_from_dependency: false
-    selected: true
+    selected: false
     status: Solved
-    encrypted_possible_answer: "def area_by_height(self, a, h):  # TODO сделать ст\
-      атическим методом"
+    encrypted_possible_answer: 'def area_by_height(self, a, h):  # TODO сделать статическим
+      методом'
   text: |
     import math
 
@@ -95,7 +95,5 @@ files:
   visible: false
   learner_created: false
 status: Solved
-feedback:
-  time: "Thu, 01 Jun 2023 15:39:17 UTC"
 record: -1
 post_submission_on_open: true

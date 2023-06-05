@@ -4,15 +4,15 @@ files:
   visible: true
   placeholders:
   - offset: 1817
-    length: 74
-    placeholder_text: "str(self.list_nodes)  # TODO заменить на list comprehension"
+    length: 59
+    placeholder_text: 'str(self.list_nodes)  # TODO заменить на list comprehension'
     initial_state:
       length: 59
       offset: 1817
     initialized_from_dependency: false
-    selected: true
-    status: Unchecked
-    encrypted_possible_answer: "str(self.list_nodes)  # TODO заменить на list comprehension"
+    selected: false
+    status: Solved
+    encrypted_possible_answer: 'str(self.list_nodes)  # TODO заменить на list comprehension'
   text: |
     from typing import Iterable, Optional, Any
 
@@ -121,5 +121,8 @@ files:
 - name: __init__.py
   visible: false
   learner_created: false
-status: Unchecked
+status: Solved
+feedback:
+  message: Congratulations!
+  time: Mon, 05 Jun 2023 08:47:30 UTC
 record: -1

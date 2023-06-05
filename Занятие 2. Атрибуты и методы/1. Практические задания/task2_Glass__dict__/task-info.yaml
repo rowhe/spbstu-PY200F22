@@ -3,7 +3,7 @@ files:
 - name: main.py
   visible: true
   placeholders:
-  - offset: 179
+  - offset: 144
     length: 130
     placeholder_text: |-
       self.capacity_volume = capacity_volume  # объем стакана
@@ -12,7 +12,7 @@ files:
       length: 130
       offset: 144
     initialized_from_dependency: false
-    selected: true
+    selected: false
     status: Failed
     encrypted_possible_answer: |-
       self.capacity_volume = capacity_volume  # объем стакана
@@ -42,7 +42,7 @@ files:
 status: Failed
 feedback:
   message: Incorrect
-  time: "Sun, 04 Jun 2023 16:34:01 UTC"
+  time: Mon, 05 Jun 2023 08:47:53 UTC
   expected: |
     {}
     {'capacity_volume': 200, 'occupied_volume': 100}
