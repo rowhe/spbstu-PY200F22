@@ -3,8 +3,8 @@ files:
 - name: main.py
   visible: true
   placeholders:
-  - offset: 136
-    length: 86
+  - offset: 135
+    length: 104
     placeholder_text: |-
       #  TODO заменить на метод
               if not isinstance(capacity_volume, (int, float)):
@@ -25,8 +25,8 @@ files:
               if not capacity_volume > 0:
                   raise ValueError
               self.capacity_volume = capacity_volume  # объем стакана
-  - offset: 446
-    length: 73
+  - offset: 464
+    length: 71
     placeholder_text: "#  TODO создать метод, который будет инициализировать атриб\
       ут capacity_volume"
     initial_state:
@@ -37,8 +37,8 @@ files:
     status: Solved
     encrypted_possible_answer: "#  TODO создать метод, который будет инициализиров\
       ать атрибут capacity_volume"
-  - offset: 869
-    length: 65
+  - offset: 819
+    length: 31
     placeholder_text: "...  # TODO инициализировать экземпляр класса Glass"
     initial_state:
       length: 51
@@ -47,8 +47,8 @@ files:
     selected: true
     status: Solved
     encrypted_possible_answer: "...  # TODO инициализировать экземпляр класса Glass"
-  - offset: 945
-    length: 62
+  - offset: 861
+    length: 80
     placeholder_text: "...)  # TODO распечатать атрибут capacity_volume"
     initial_state:
       length: 48
@@ -57,8 +57,8 @@ files:
     selected: true
     status: Solved
     encrypted_possible_answer: "...)  # TODO распечатать атрибут capacity_volume"
-  - offset: 1018
-    length: 62
+  - offset: 952
+    length: 80
     placeholder_text: "...)  # TODO распечатать атрибут occupied_volume"
     initial_state:
       length: 48
@@ -94,17 +94,17 @@ files:
         print(...)  # TODO распечатать атрибут capacity_volume
         print(...)  # TODO распечатать атрибут occupied_volume
   learner_created: false
-- name: __init__.py
-  visible: false
-  learner_created: false
 - name: tests/output.txt
   visible: false
   text: |
     200
     100
   learner_created: false
+- name: __init__.py
+  visible: false
+  learner_created: false
 status: Solved
 feedback:
   message: Congratulations!
-  time: "Thu, 25 May 2023 17:32:00 UTC"
+  time: "Sun, 04 Jun 2023 18:33:28 UTC"
 record: -1

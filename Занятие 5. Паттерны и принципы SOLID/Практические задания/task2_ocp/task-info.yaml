@@ -90,11 +90,11 @@ files:
 
 
   learner_created: false
-- name: __init__.py
-  visible: false
-  learner_created: false
 - name: img.png
   visible: true
+  learner_created: false
+- name: __init__.py
+  visible: false
   learner_created: false
 status: Unchecked
 record: -1

@@ -5,16 +5,16 @@ files:
   placeholders:
   - offset: 2360
     length: 89
-    placeholder_text: "# TODO определить метод сложения, когда LinkedList находитс\
-      я справа от оператора сложения"
+    placeholder_text: '# TODO определить метод сложения, когда LinkedList находится
+      справа от оператора сложения'
     initial_state:
       length: 89
       offset: 2360
     initialized_from_dependency: false
     selected: false
     status: Unchecked
-    encrypted_possible_answer: "# TODO определить метод сложения, когда LinkedList\
-      \ находится справа от оператора сложения"
+    encrypted_possible_answer: '# TODO определить метод сложения, когда LinkedList
+      находится справа от оператора сложения'
   text: |+
     from typing import Any, Iterable, Optional
 
@@ -111,9 +111,6 @@ files:
 
 
   learner_created: false
-- name: __init__.py
-  visible: false
-  learner_created: false
 - name: tests/output.txt
   visible: false
   text: |
@@ -157,6 +154,9 @@ files:
         def next(self, next_: Optional["Node"]):
             self.is_valid(next_)
             self._next = next_
+  learner_created: false
+- name: __init__.py
+  visible: false
   learner_created: false
 status: Unchecked
 record: -1

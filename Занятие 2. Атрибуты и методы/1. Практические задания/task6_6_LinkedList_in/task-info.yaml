@@ -73,9 +73,6 @@ files:
         print("Проверка вхождения числа 5 в связный список")
         print(5 in linked_list)
   learner_created: false
-- name: __init__.py
-  visible: false
-  learner_created: false
 - name: tests/output.txt
   visible: false
   text: |
@@ -124,5 +121,11 @@ files:
             self.is_valid(next_)
             self.next = next_
   learner_created: false
-status: Unchecked
+- name: __init__.py
+  visible: false
+  learner_created: false
+status: Solved
+feedback:
+  message: Congratulations!
+  time: "Thu, 01 Jun 2023 18:07:01 UTC"
 record: -1

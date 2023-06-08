@@ -4,27 +4,27 @@ files:
   visible: true
   placeholders:
   - offset: 371
-    length: 66
-    placeholder_text: "...  # TODO добавить атрибуты"
+    length: 104
+    placeholder_text: '...  # TODO добавить атрибуты'
     initial_state:
       length: 29
       offset: 371
     initialized_from_dependency: false
     selected: true
     status: Solved
-    encrypted_possible_answer: "...  # TODO добавить атрибуты"
-  - offset: 543
-    length: 43
-    placeholder_text: "...  # TODO вернуть значение узла"
+    encrypted_possible_answer: '...  # TODO добавить атрибуты'
+  - offset: 581
+    length: 46
+    placeholder_text: '...  # TODO вернуть значение узла'
     initial_state:
       length: 33
       offset: 506
     initialized_from_dependency: false
     selected: true
     status: Solved
-    encrypted_possible_answer: "...  # TODO вернуть значение узла"
-  - offset: 592
-    length: 26
+    encrypted_possible_answer: '...  # TODO вернуть значение узла'
+  - offset: 633
+    length: 136
     placeholder_text: '# TODO добавить метод get_next'
     initial_state:
       length: 30
@@ -33,8 +33,8 @@ files:
     selected: true
     status: Solved
     encrypted_possible_answer: '# TODO добавить метод get_next'
-  - offset: 816
-    length: 87
+  - offset: 885
+    length: 57
     placeholder_text: '# TODO с помощью метода распечатать значение первого узла'
     initial_state:
       length: 57
@@ -44,15 +44,15 @@ files:
     status: Solved
     encrypted_possible_answer: '# TODO с помощью метода распечатать значение первого
       узла'
-  - offset: 908
-    length: 60
+  - offset: 947
+    length: 64
     placeholder_text: '# TODO  с помощью метода распечатать следующий узел второго
       узла'
     initial_state:
       length: 64
       offset: 753
     initialized_from_dependency: false
-    selected: true
+    selected: false
     status: Solved
     encrypted_possible_answer: '# TODO  с помощью метода распечатать следующий узел
       второго узла'
@@ -85,17 +85,17 @@ files:
         # TODO с помощью метода распечатать значение первого узла
         # TODO  с помощью метода распечатать следующий узел второго узла
   learner_created: false
-- name: __init__.py
-  visible: false
-  learner_created: false
 - name: tests/output.txt
   visible: false
   text: |
     1
     None
   learner_created: false
+- name: __init__.py
+  visible: false
+  learner_created: false
 status: Solved
 feedback:
   message: Congratulations!
-  time: "Thu, 25 May 2023 17:32:21 UTC"
+  time: Mon, 05 Jun 2023 14:31:15 UTC
 record: -1

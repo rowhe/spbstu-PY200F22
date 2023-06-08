@@ -26,10 +26,10 @@ files:
         def test_add(self):
             ...
   learner_created: false
-- name: __init__.py
+- name: tests/__init__.py
   visible: false
   learner_created: false
-- name: tests/__init__.py
+- name: __init__.py
   visible: false
   learner_created: false
 status: Unchecked

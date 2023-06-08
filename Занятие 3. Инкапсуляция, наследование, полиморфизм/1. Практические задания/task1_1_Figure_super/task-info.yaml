@@ -34,13 +34,13 @@ files:
         rect = Rectangle(5, 10, 'rect_fig')
         rect.print_name()
   learner_created: false
-- name: __init__.py
-  visible: false
-  learner_created: false
 - name: tests/output.txt
   visible: false
   text: |
     rect_fig
+  learner_created: false
+- name: __init__.py
+  visible: false
   learner_created: false
 status: Unchecked
 record: -1

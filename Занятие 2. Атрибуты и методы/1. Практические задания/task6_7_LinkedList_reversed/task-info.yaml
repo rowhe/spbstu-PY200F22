@@ -74,9 +74,6 @@ files:
 
         print(list(reversed(linked_list)))
   learner_created: false
-- name: __init__.py
-  visible: false
-  learner_created: false
 - name: tests/output.txt
   visible: false
   text: |
@@ -121,5 +118,11 @@ files:
             self.is_valid(next_)
             self.next = next_
   learner_created: false
-status: Unchecked
+- name: __init__.py
+  visible: false
+  learner_created: false
+status: Solved
+feedback:
+  message: Congratulations!
+  time: "Thu, 01 Jun 2023 18:08:26 UTC"
 record: -1

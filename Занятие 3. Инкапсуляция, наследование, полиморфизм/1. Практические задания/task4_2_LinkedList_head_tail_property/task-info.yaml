@@ -227,9 +227,6 @@ files:
         print(ll.tail)
         print(len(ll))
   learner_created: false
-- name: __init__.py
-  visible: false
-  learner_created: false
 - name: tests/output.txt
   visible: false
   text: |
@@ -273,6 +270,9 @@ files:
         def next(self, next_: Optional["Node"]):
             self.is_valid(next_)
             self._next = next_
+  learner_created: false
+- name: __init__.py
+  visible: false
   learner_created: false
 status: Unchecked
 record: -1

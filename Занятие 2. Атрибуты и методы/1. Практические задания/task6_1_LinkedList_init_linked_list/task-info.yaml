@@ -3,36 +3,36 @@ files:
 - name: main.py
   visible: true
   placeholders:
-  - offset: 429
-    length: 77
+  - offset: 431
+    length: 92
     placeholder_text: "...  # TODO обернуть все значения в класс Node и поместить\
       \ их в python список"
     initial_state:
       length: 77
       offset: 429
     initialized_from_dependency: false
-    selected: false
+    selected: true
     status: Unchecked
     encrypted_possible_answer: "...  # TODO обернуть все значения в класс Node и п\
       оместить их в python список"
-  - offset: 516
-    length: 46
+  - offset: 533
+    length: 42
     placeholder_text: "# TODO составьте алгоритм, который свяжет узлы"
     initial_state:
       length: 46
       offset: 516
     initialized_from_dependency: false
-    selected: false
+    selected: true
     status: Unchecked
     encrypted_possible_answer: "# TODO составьте алгоритм, который свяжет узлы"
-  - offset: 568
-    length: 36
+  - offset: 702
+    length: 32
     placeholder_text: '# TODO каким должен быть этот метод?'
     initial_state:
       length: 36
       offset: 568
     initialized_from_dependency: false
-    selected: false
+    selected: true
     status: Unchecked
     encrypted_possible_answer: '# TODO каким должен быть этот метод?'
   text: |
@@ -73,9 +73,6 @@ files:
         linked_list = LinkedList(list_)
         print(linked_list)
   learner_created: false
-- name: __init__.py
-  visible: false
-  learner_created: false
 - name: tests/output.txt
   visible: false
   text: |
@@ -114,6 +111,9 @@ files:
         def set_next(self, next_: Optional["Node"] = None) -> None:
             self.is_valid(next_)
             self.next = next_
+  learner_created: false
+- name: __init__.py
+  visible: false
   learner_created: false
 status: Unchecked
 record: -1

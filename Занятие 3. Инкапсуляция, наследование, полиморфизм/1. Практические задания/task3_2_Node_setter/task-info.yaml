@@ -80,9 +80,6 @@ files:
 
         print(repr(first_node), repr(first_node.next))
   learner_created: false
-- name: __init__.py
-  visible: false
-  learner_created: false
 - name: tests/output.txt
   visible: false
   text: |
@@ -90,6 +87,9 @@ files:
     Вызван setter
     Вызван setter
     Node(1, Node(2)) Node(2, None)
+  learner_created: false
+- name: __init__.py
+  visible: false
   learner_created: false
 status: Unchecked
 record: -1

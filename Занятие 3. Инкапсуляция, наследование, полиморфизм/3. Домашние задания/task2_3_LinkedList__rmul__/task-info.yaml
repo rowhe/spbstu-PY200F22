@@ -5,14 +5,14 @@ files:
   placeholders:
   - offset: 2878
     length: 47
-    placeholder_text: "...  # TODO определить правостороннее умножение"
+    placeholder_text: '...  # TODO определить правостороннее умножение'
     initial_state:
       length: 47
       offset: 2878
     initialized_from_dependency: false
     selected: false
     status: Unchecked
-    encrypted_possible_answer: "...  # TODO определить правостороннее умножение"
+    encrypted_possible_answer: '...  # TODO определить правостороннее умножение'
   text: |+
     from typing import Any, Iterable, Optional
     from itertools import repeat
@@ -125,9 +125,6 @@ files:
 
 
   learner_created: false
-- name: __init__.py
-  visible: false
-  learner_created: false
 - name: tests/output.txt
   visible: false
   text: |
@@ -170,6 +167,9 @@ files:
         def next(self, next_: Optional["Node"]):
             self.is_valid(next_)
             self._next = next_
+  learner_created: false
+- name: __init__.py
+  visible: false
   learner_created: false
 status: Unchecked
 record: -1

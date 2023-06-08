@@ -5,25 +5,25 @@ files:
   placeholders:
   - offset: 245
     length: 33
-    placeholder_text: "...  # TODO добавить атрибут tail"
+    placeholder_text: '...  # TODO добавить атрибут tail'
     initial_state:
       length: 33
       offset: 245
     initialized_from_dependency: false
     selected: false
     status: Unchecked
-    encrypted_possible_answer: "...  # TODO добавить атрибут tail"
+    encrypted_possible_answer: '...  # TODO добавить атрибут tail'
   - offset: 548
     length: 64
-    placeholder_text: "self.head = append_node  # TODO добавить использование self.tail"
+    placeholder_text: 'self.head = append_node  # TODO добавить использование self.tail'
     initial_state:
       length: 64
       offset: 548
     initialized_from_dependency: false
     selected: false
     status: Unchecked
-    encrypted_possible_answer: "self.head = append_node  # TODO добавить использов\
-      ание self.tail"
+    encrypted_possible_answer: 'self.head = append_node  # TODO добавить использование
+      self.tail'
   - offset: 639
     length: 181
     placeholder_text: |-
@@ -44,16 +44,16 @@ files:
                   self.linked_nodes(last_node, append_node)
   - offset: 1584
     length: 89
-    placeholder_text: "left_node.set_next(right_node)  # TODO next теперь свойство\
-      \ имеет setter, используйте это"
+    placeholder_text: 'left_node.set_next(right_node)  # TODO next теперь свойство
+      имеет setter, используйте это'
     initial_state:
       length: 89
       offset: 1584
     initialized_from_dependency: false
     selected: false
     status: Unchecked
-    encrypted_possible_answer: "left_node.set_next(right_node)  # TODO next теперь\
-      \ свойство имеет setter, используйте это"
+    encrypted_possible_answer: 'left_node.set_next(right_node)  # TODO next теперь
+      свойство имеет setter, используйте это'
   text: |
     from typing import Any, Iterable, Optional
 
@@ -138,9 +138,6 @@ files:
         ll.append(100)
         print(ll)
   learner_created: false
-- name: __init__.py
-  visible: false
-  learner_created: false
 - name: tests/output.txt
   visible: false
   text: |
@@ -183,6 +180,9 @@ files:
         def next(self, next_: Optional["Node"]):
             self.is_valid(next_)
             self._next = next_
+  learner_created: false
+- name: __init__.py
+  visible: false
   learner_created: false
 status: Unchecked
 record: -1

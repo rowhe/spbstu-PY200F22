@@ -13,7 +13,7 @@ files:
       offset: 144
     initialized_from_dependency: false
     selected: false
-    status: Unchecked
+    status: Failed
     encrypted_possible_answer: |-
       self.capacity_volume = capacity_volume  # объем стакана
               self.occupied_volume = occupied_volume  # объем жидкости в стакане
@@ -30,14 +30,21 @@ files:
     if __name__ == "__main__":
         glass = Glass(200, 100)
   learner_created: false
-- name: __init__.py
-  visible: false
-  learner_created: false
 - name: tests/output.txt
   visible: false
   text: |
     {}
     {'capacity_volume': 200, 'occupied_volume': 100}
   learner_created: false
-status: Unchecked
+- name: __init__.py
+  visible: false
+  learner_created: false
+status: Failed
+feedback:
+  message: Incorrect
+  time: Mon, 05 Jun 2023 08:47:53 UTC
+  expected: |
+    {}
+    {'capacity_volume': 200, 'occupied_volume': 100}
+  actual: <no output>
 record: -1

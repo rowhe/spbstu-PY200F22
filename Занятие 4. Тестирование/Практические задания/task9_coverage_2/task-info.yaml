@@ -1,8 +1,5 @@
 type: theory
 files:
-- name: __init__.py
-  visible: false
-  learner_created: false
 - name: example.py
   visible: true
   text: |
@@ -99,9 +96,6 @@ files:
 - name: test.png
   visible: true
   learner_created: false
-- name: tmp/__init__.py
-  visible: false
-  learner_created: false
 - name: tmp/test_main4.py
   visible: true
   text: |
@@ -128,9 +122,6 @@ files:
 
     # if __name__ == '__main__':
     #     unittest.main()
-  learner_created: false
-- name: tmp/tmp1/__init__.py
-  visible: false
   learner_created: false
 - name: tmp/tmp1/test_main5.py
   visible: true
@@ -161,9 +152,6 @@ files:
 - name: img.png
   visible: true
   learner_created: false
-- name: tests1/__init__.py
-  visible: false
-  learner_created: false
 - name: tests1/test_main3.py
   visible: true
   text: |
@@ -190,6 +178,18 @@ files:
 
     # if __name__ == '__main__':
     #     unittest.main()
+  learner_created: false
+- name: tests1/__init__.py
+  visible: false
+  learner_created: false
+- name: tmp/__init__.py
+  visible: false
+  learner_created: false
+- name: tmp/tmp1/__init__.py
+  visible: false
+  learner_created: false
+- name: __init__.py
+  visible: false
   learner_created: false
 status: Unchecked
 record: -1

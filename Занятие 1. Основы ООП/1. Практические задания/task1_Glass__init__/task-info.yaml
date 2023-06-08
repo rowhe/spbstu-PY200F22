@@ -3,8 +3,8 @@ files:
 - name: main.py
   visible: true
   placeholders:
-  - offset: 330
-    length: 201
+  - offset: 144
+    length: 121
     placeholder_text: '#  TODO инициализировать объект "Стакан"'
     initial_state:
       length: 40
@@ -13,8 +13,8 @@ files:
     selected: true
     status: Solved
     encrypted_possible_answer: '#  TODO инициализировать объект "Стакан"'
-  - offset: 565
-    length: 68
+  - offset: 299
+    length: 122
     placeholder_text: "...  # TODO инициализировать два объекта типа Glass"
     initial_state:
       length: 51
@@ -23,8 +23,8 @@ files:
     selected: true
     status: Solved
     encrypted_possible_answer: "...  # TODO инициализировать два объекта типа Glass"
-  - offset: 638
-    length: 79
+  - offset: 427
+    length: 143
     placeholder_text: '# TODO попробовать инициализировать не корректные объекты'
     initial_state:
       length: 57
@@ -53,6 +53,6 @@ files:
   learner_created: false
 status: Solved
 feedback:
-  time: "Thu, 25 May 2023 15:29:19 UTC"
+  time: "Sun, 04 Jun 2023 16:41:10 UTC"
 record: -1
 post_submission_on_open: true

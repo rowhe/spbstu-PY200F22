@@ -15,9 +15,6 @@ files:
 
         print(type(glass) == glass.__class__)
   learner_created: false
-- name: __init__.py
-  visible: false
-  learner_created: false
 - name: tests/output.txt
   visible: false
   text: |
@@ -25,5 +22,11 @@ files:
     <class '__main__.Glass'>
     True
   learner_created: false
-status: Unchecked
+- name: __init__.py
+  visible: false
+  learner_created: false
+status: Solved
+feedback:
+  message: Congratulations!
+  time: Mon, 05 Jun 2023 08:47:56 UTC
 record: -1

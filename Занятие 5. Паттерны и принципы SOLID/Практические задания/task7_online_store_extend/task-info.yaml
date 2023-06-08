@@ -40,9 +40,6 @@ files:
         # Write your solution here
         pass
   learner_created: false
-- name: __init__.py
-  visible: false
-  learner_created: false
 - name: store.py
   visible: true
   text: |-
@@ -131,6 +128,9 @@ files:
 
         def get_order(self, order_id):
             return self.order_repository.get_order(order_id)
+  learner_created: false
+- name: __init__.py
+  visible: false
   learner_created: false
 status: Unchecked
 record: -1

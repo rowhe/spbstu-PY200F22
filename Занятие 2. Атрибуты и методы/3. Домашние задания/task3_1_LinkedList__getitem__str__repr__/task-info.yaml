@@ -5,14 +5,14 @@ files:
   placeholders:
   - offset: 1391
     length: 36
-    placeholder_text: "...  # TODO подставьте нужную ошибку"
+    placeholder_text: '...  # TODO подставьте нужную ошибку'
     initial_state:
       length: 36
       offset: 1391
     initialized_from_dependency: false
     selected: false
     status: Unchecked
-    encrypted_possible_answer: "...  # TODO подставьте нужную ошибку"
+    encrypted_possible_answer: '...  # TODO подставьте нужную ошибку'
   - offset: 1692
     length: 6
     placeholder_text: '# TODO'
@@ -25,38 +25,36 @@ files:
     encrypted_possible_answer: '# TODO'
   - offset: 1739
     length: 63
-    placeholder_text: "...  # TODO Метод to_list реализовать через list comprehension."
+    placeholder_text: '...  # TODO Метод to_list реализовать через list comprehension.'
     initial_state:
       length: 63
       offset: 1739
     initialized_from_dependency: false
     selected: false
     status: Unchecked
-    encrypted_possible_answer: "...  # TODO Метод to_list реализовать через list comprehension."
+    encrypted_possible_answer: '...  # TODO Метод to_list реализовать через list comprehension.'
   - offset: 1843
     length: 61
-    placeholder_text: "...  # TODO c помощью метода to_list реализовать данный мет\
-      од"
+    placeholder_text: '...  # TODO c помощью метода to_list реализовать данный метод'
     initial_state:
       length: 61
       offset: 1843
     initialized_from_dependency: false
     selected: false
     status: Unchecked
-    encrypted_possible_answer: "...  # TODO c помощью метода to_list реализовать д\
-      анный метод"
+    encrypted_possible_answer: '...  # TODO c помощью метода to_list реализовать данный
+      метод'
   - offset: 1944
     length: 61
-    placeholder_text: "...  # TODO c помощью метода to_list реализовать данный мет\
-      од"
+    placeholder_text: '...  # TODO c помощью метода to_list реализовать данный метод'
     initial_state:
       length: 61
       offset: 1944
     initialized_from_dependency: false
     selected: false
     status: Unchecked
-    encrypted_possible_answer: "...  # TODO c помощью метода to_list реализовать д\
-      анный метод"
+    encrypted_possible_answer: '...  # TODO c помощью метода to_list реализовать данный
+      метод'
   text: |
     from typing import Iterable, Optional, Any
 
@@ -136,9 +134,6 @@ files:
         print(linked_list)
         print(repr(linked_list))
   learner_created: false
-- name: __init__.py
-  visible: false
-  learner_created: false
 - name: tests/output.txt
   visible: false
   text: |
@@ -178,6 +173,9 @@ files:
         def set_next(self, next_: Optional["Node"] = None) -> None:
             self.is_valid(next_)
             self.next = next_
+  learner_created: false
+- name: __init__.py
+  visible: false
   learner_created: false
 status: Unchecked
 record: -1

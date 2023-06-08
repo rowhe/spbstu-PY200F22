@@ -1,8 +1,5 @@
 type: theory
 files:
-- name: __init__.py
-  visible: false
-  learner_created: false
 - name: main.py
   visible: true
   text: |
@@ -16,6 +13,9 @@ files:
         glass = Glass(200, 0)
         print(dir(glass))
   learner_created: false
-status: Unchecked
+- name: __init__.py
+  visible: false
+  learner_created: false
+status: Solved
 record: -1
 post_submission_on_open: true

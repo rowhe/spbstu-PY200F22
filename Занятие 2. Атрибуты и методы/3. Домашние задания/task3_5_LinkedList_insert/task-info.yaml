@@ -1,8 +1,5 @@
 type: output
 files:
-- name: __init__.py
-  visible: false
-  learner_created: false
 - name: node.py
   visible: true
   text: |
@@ -42,14 +39,14 @@ files:
   placeholders:
   - offset: 2863
     length: 49
-    placeholder_text: "...  # TODO реализовать алгоритм вставки элемента"
+    placeholder_text: '...  # TODO реализовать алгоритм вставки элемента'
     initial_state:
       length: 49
       offset: 2863
     initialized_from_dependency: false
     selected: false
     status: Unchecked
-    encrypted_possible_answer: "...  # TODO реализовать алгоритм вставки элемента"
+    encrypted_possible_answer: '...  # TODO реализовать алгоритм вставки элемента'
   text: |
     from typing import Iterable, Optional, Any
 
@@ -179,6 +176,9 @@ files:
     [0, 1, 2, 3, 4, 100]
     [0, 1, 'wow', 2, 3, 4, 100]
     True
+  learner_created: false
+- name: __init__.py
+  visible: false
   learner_created: false
 status: Unchecked
 record: -1
