@@ -55,9 +55,9 @@ class LinkedList:
         if self.head is None:
             self.head = append_node
         else:
-            last_node = self.step_by_step_on_nodes(self.len-1)
+            last_node = self.step_by_step_on_nodes(self.len - 1)
             self.linked_nodes(last_node, append_node)
-        self.len+=1
+        self.len += 1
 
 
 if __name__ == "__main__":

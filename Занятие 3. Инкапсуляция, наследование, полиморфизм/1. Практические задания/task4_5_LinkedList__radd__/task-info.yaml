@@ -4,17 +4,17 @@ files:
   visible: true
   placeholders:
   - offset: 2360
-    length: 89
-    placeholder_text: '# TODO определить метод сложения, когда LinkedList находится
-      справа от оператора сложения'
+    length: 188
+    placeholder_text: "# TODO определить метод сложения, когда LinkedList находитс\
+      я справа от оператора сложения"
     initial_state:
       length: 89
       offset: 2360
     initialized_from_dependency: false
-    selected: false
-    status: Unchecked
-    encrypted_possible_answer: '# TODO определить метод сложения, когда LinkedList
-      находится справа от оператора сложения'
+    selected: true
+    status: Solved
+    encrypted_possible_answer: "# TODO определить метод сложения, когда LinkedList\
+      \ находится справа от оператора сложения"
   text: |+
     from typing import Any, Iterable, Optional
 
@@ -158,5 +158,8 @@ files:
 - name: __init__.py
   visible: false
   learner_created: false
-status: Unchecked
+status: Solved
+feedback:
+  message: Congratulations!
+  time: "Thu, 08 Jun 2023 17:53:36 UTC"
 record: -1

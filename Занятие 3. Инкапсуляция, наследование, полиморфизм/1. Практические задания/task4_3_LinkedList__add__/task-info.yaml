@@ -4,15 +4,16 @@ files:
   visible: true
   placeholders:
   - offset: 2194
-    length: 56
-    placeholder_text: '...  # TODO реализовать конкатенацию последовательностей'
+    length: 111
+    placeholder_text: "...  # TODO реализовать конкатенацию последовательностей"
     initial_state:
       length: 56
       offset: 2194
     initialized_from_dependency: false
-    selected: false
-    status: Unchecked
-    encrypted_possible_answer: '...  # TODO реализовать конкатенацию последовательностей'
+    selected: true
+    status: Solved
+    encrypted_possible_answer: "...  # TODO реализовать конкатенацию последователь\
+      ностей"
   text: |
     from typing import Any, Iterable, Optional
 
@@ -143,5 +144,8 @@ files:
 - name: __init__.py
   visible: false
   learner_created: false
-status: Unchecked
+status: Solved
+feedback:
+  message: Congratulations!
+  time: "Thu, 08 Jun 2023 17:48:38 UTC"
 record: -1

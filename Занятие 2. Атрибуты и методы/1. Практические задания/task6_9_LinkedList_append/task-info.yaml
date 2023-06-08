@@ -14,7 +14,7 @@ files:
     status: Solved
     encrypted_possible_answer: "...  # TODO инициализировать связный список"
   - offset: 1522
-    length: 296
+    length: 298
     placeholder_text: "...  # TODO реализовать алгоритм добавления узла в конец по\
       следовательности"
     initial_state:
@@ -135,5 +135,5 @@ files:
 status: Solved
 feedback:
   message: Congratulations!
-  time: "Thu, 01 Jun 2023 18:18:47 UTC"
+  time: "Thu, 08 Jun 2023 15:09:39 UTC"
 record: -1
