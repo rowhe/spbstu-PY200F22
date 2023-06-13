@@ -11,25 +11,31 @@ class Node:
         :param next_: следующий узел, если он есть
         """
         self.value = value
-
-        # TODO установить значение следующего узла с помощью метода set_next
+        self.next_ = self.set_next(next_)
+       # установить значение следующего узла с помощью метода set_next
 
     def __repr__(self) -> str:
-        return f"Node({self.value}, {self.next})"
+        return f"Node({self.value}, {self.next_})"
 
     def is_valid(self, node: Any) -> None:
-       # TODO метод проверки корректности связываемого узла
-        ...
+       # метод проверки корректности связываемого узла
+        if node is not isinstance(node, Node):
+            raise TypeError
+        self.value = self.value
 
     def set_next(self, next_: Optional["Node"] = None) -> None:
-        # TODO метод должен проверять корректность узла и устанавливать значение атрибуту next
-        ...
-
+        # метод должен проверять корректность узла и устанавливать значение атрибуту next
+        self.is_valid(next_)
+        self.next_ = next_
+        return self.next_
 
 if __name__ == '__main__':
-    # TODO инициализируйте два узла с любыми значеними
+    # инициализируйте два узла с любыми значеними
+    first_node = Node(1,)
+    second_node = Node(2, None)
 
-    # TODO свяжите первый узел со вторым
+    # свяжите первый узел со вторым
+    first_node.set_next(second_node)
 
     print(first_node)
     print(second_node)

@@ -9,20 +9,20 @@ files:
 - name: task.py
   visible: true
   placeholders:
-  - offset: 399
-    length: 68
+  - offset: 439
+    length: 63
     placeholder_text: '# TODO установить значение следующего узла с помощью метода
       set_next'
     initial_state:
       length: 68
       offset: 399
     initialized_from_dependency: false
-    selected: false
-    status: Failed
+    selected: true
+    status: Solved
     encrypted_possible_answer: '# TODO установить значение следующего узла с помощью
       метода set_next'
-  - offset: 601
-    length: 64
+  - offset: 637
+    length: 155
     placeholder_text: |-
       # TODO метод проверки корректности связываемого узла
               ...
@@ -31,12 +31,12 @@ files:
       offset: 601
     initialized_from_dependency: false
     selected: true
-    status: Failed
+    status: Solved
     encrypted_possible_answer: |-
       # TODO метод проверки корректности связываемого узла
               ...
-  - offset: 739
-    length: 98
+  - offset: 865
+    length: 163
     placeholder_text: |-
       # TODO метод должен проверять корректность узла и устанавливать значение атрибуту next
               ...
@@ -45,29 +45,29 @@ files:
       offset: 739
     initialized_from_dependency: false
     selected: true
-    status: Failed
+    status: Solved
     encrypted_possible_answer: |-
       # TODO метод должен проверять корректность узла и устанавливать значение атрибуту next
               ...
-  - offset: 871
-    length: 50
+  - offset: 1061
+    length: 103
     placeholder_text: '# TODO инициализируйте два узла с любыми значеними'
     initial_state:
       length: 50
       offset: 871
     initialized_from_dependency: false
-    selected: false
-    status: Failed
+    selected: true
+    status: Solved
     encrypted_possible_answer: '# TODO инициализируйте два узла с любыми значеними'
-  - offset: 927
-    length: 36
+  - offset: 1170
+    length: 68
     placeholder_text: '# TODO свяжите первый узел со вторым'
     initial_state:
       length: 36
       offset: 927
     initialized_from_dependency: false
-    selected: false
-    status: Failed
+    selected: true
+    status: Solved
     encrypted_possible_answer: '# TODO свяжите первый узел со вторым'
   text: |
     from typing import Any, Optional
@@ -109,12 +109,8 @@ files:
 - name: __init__.py
   visible: false
   learner_created: false
-status: Failed
+status: Solved
 feedback:
-  message: Incorrect
-  time: Fri, 02 Jun 2023 14:44:48 UTC
-  expected: |
-    Node(1, Node(2, None))
-    Node(2, None)
-  actual: <no output>
+  message: Congratulations!
+  time: Tue, 13 Jun 2023 13:17:59 UTC
 record: -1
