@@ -11,7 +11,8 @@ class Node:
         :param next_: следующий узел, если он есть
         """
         self.value = value
-        self.next_ = self.set_next(next_)
+        self.next_ = None
+        self.set_next(next_)
        # установить значение следующего узла с помощью метода set_next
 
     def __repr__(self) -> str:
@@ -19,20 +20,18 @@ class Node:
 
     def is_valid(self, node: Any) -> None:
        # метод проверки корректности связываемого узла
-        if node is not isinstance(node, Node):
+        if not isinstance(node, (type(None), Node)):
             raise TypeError
-        self.value = self.value
 
     def set_next(self, next_: Optional["Node"] = None) -> None:
         # метод должен проверять корректность узла и устанавливать значение атрибуту next
         self.is_valid(next_)
         self.next_ = next_
-        return self.next_
 
 if __name__ == '__main__':
     # инициализируйте два узла с любыми значеними
-    first_node = Node(1,)
-    second_node = Node(2, None)
+    first_node = Node(1)
+    second_node = Node(2)
 
     # свяжите первый узел со вторым
     first_node.set_next(second_node)

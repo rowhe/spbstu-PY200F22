@@ -9,7 +9,7 @@ files:
 - name: task.py
   visible: true
   placeholders:
-  - offset: 439
+  - offset: 452
     length: 63
     placeholder_text: '# TODO установить значение следующего узла с помощью метода
       set_next'
@@ -21,8 +21,8 @@ files:
     status: Solved
     encrypted_possible_answer: '# TODO установить значение следующего узла с помощью
       метода set_next'
-  - offset: 637
-    length: 155
+  - offset: 650
+    length: 129
     placeholder_text: |-
       # TODO метод проверки корректности связываемого узла
               ...
@@ -35,8 +35,8 @@ files:
     encrypted_possible_answer: |-
       # TODO метод проверки корректности связываемого узла
               ...
-  - offset: 865
-    length: 163
+  - offset: 852
+    length: 137
     placeholder_text: |-
       # TODO метод должен проверять корректность узла и устанавливать значение атрибуту next
               ...
@@ -49,8 +49,8 @@ files:
     encrypted_possible_answer: |-
       # TODO метод должен проверять корректность узла и устанавливать значение атрибуту next
               ...
-  - offset: 1061
-    length: 103
+  - offset: 1022
+    length: 96
     placeholder_text: '# TODO инициализируйте два узла с любыми значеними'
     initial_state:
       length: 50
@@ -59,7 +59,7 @@ files:
     selected: true
     status: Solved
     encrypted_possible_answer: '# TODO инициализируйте два узла с любыми значеними'
-  - offset: 1170
+  - offset: 1124
     length: 68
     placeholder_text: '# TODO свяжите первый узел со вторым'
     initial_state:
@@ -112,5 +112,5 @@ files:
 status: Solved
 feedback:
   message: Congratulations!
-  time: Tue, 13 Jun 2023 13:17:59 UTC
+  time: Wed, 14 Jun 2023 07:36:31 UTC
 record: -1
