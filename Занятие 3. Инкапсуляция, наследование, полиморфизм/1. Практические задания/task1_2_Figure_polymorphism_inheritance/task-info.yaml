@@ -5,26 +5,26 @@ files:
   placeholders:
   - offset: 238
     length: 59
-    placeholder_text: '...  # TODO определить конструктор и перегрузить метод area'
+    placeholder_text: "...  # TODO определить конструктор и перегрузить метод area"
     initial_state:
       length: 59
       offset: 238
     initialized_from_dependency: false
     selected: false
-    status: Unchecked
-    encrypted_possible_answer: '...  # TODO определить конструктор и перегрузить метод
-      area'
+    status: Failed
+    encrypted_possible_answer: "...  # TODO определить конструктор и перегрузить м\
+      етод area"
   - offset: 364
     length: 59
-    placeholder_text: '...  # TODO определить конструктор и перегрузить метод area'
+    placeholder_text: "...  # TODO определить конструктор и перегрузить метод area"
     initial_state:
       length: 59
       offset: 364
     initialized_from_dependency: false
     selected: false
-    status: Unchecked
-    encrypted_possible_answer: '...  # TODO определить конструктор и перегрузить метод
-      area'
+    status: Failed
+    encrypted_possible_answer: "...  # TODO определить конструктор и перегрузить м\
+      етод area"
   text: |
     import math
 
@@ -69,5 +69,14 @@ files:
 - name: __init__.py
   visible: false
   learner_created: false
-status: Unchecked
+status: Failed
+feedback:
+  message: Incorrect
+  time: "Thu, 15 Jun 2023 14:58:45 UTC"
+  expected: |
+    Вызван метод класса Figure
+    Вызван метод класса Rectangle
+    Вызван метод класса Circle
+  actual: |
+    Вызван метод класса Figure
 record: -1

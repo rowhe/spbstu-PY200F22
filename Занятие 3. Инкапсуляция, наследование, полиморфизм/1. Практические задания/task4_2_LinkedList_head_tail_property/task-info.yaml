@@ -77,7 +77,7 @@ files:
       offset: 68
     initialized_from_dependency: false
     selected: false
-    status: Unchecked
+    status: Failed
     encrypted_possible_answer: |-
       # TODO защитить от модификации атрибуты head, tail, len
       class LinkedList:
@@ -274,5 +274,15 @@ files:
 - name: __init__.py
   visible: false
   learner_created: false
-status: Unchecked
+status: Failed
+feedback:
+  message: Incorrect
+  time: "Thu, 15 Jun 2023 15:06:36 UTC"
+  expected: |
+    1
+    5
+    5
+  actual: |
+    1
+    5
 record: -1

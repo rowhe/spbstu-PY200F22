@@ -5,15 +5,16 @@ files:
   placeholders:
   - offset: 388
     length: 62
-    placeholder_text: '...  # TODO c помощью super вызвать метод area базового класса'
+    placeholder_text: "...  # TODO c помощью super вызвать метод area базового кла\
+      сса"
     initial_state:
       length: 62
       offset: 388
     initialized_from_dependency: false
     selected: false
-    status: Unchecked
-    encrypted_possible_answer: '...  # TODO c помощью super вызвать метод area базового
-      класса'
+    status: Failed
+    encrypted_possible_answer: "...  # TODO c помощью super вызвать метод area баз\
+      ового класса"
   text: |
     class Rectangle:
         """ Базовый класс. """
@@ -52,5 +53,13 @@ files:
 - name: __init__.py
   visible: false
   learner_created: false
-status: Unchecked
+status: Failed
+feedback:
+  message: Incorrect
+  time: "Thu, 15 Jun 2023 14:58:50 UTC"
+  expected: |
+    50
+    538.195520835486
+  actual: |
+    50
 record: -1

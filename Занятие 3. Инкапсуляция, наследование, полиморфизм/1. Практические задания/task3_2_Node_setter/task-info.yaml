@@ -14,7 +14,7 @@ files:
       offset: 399
     initialized_from_dependency: false
     selected: false
-    status: Unchecked
+    status: Failed
     encrypted_possible_answer: |-
       # TODO заменить на вызов setter
               self.next = None
@@ -31,7 +31,7 @@ files:
       offset: 821
     initialized_from_dependency: false
     selected: false
-    status: Unchecked
+    status: Failed
     encrypted_possible_answer: |-
       # TODO заменить на getter и setter
           def set_next(self, next_: Optional["Node"] = None) -> None:
@@ -91,5 +91,15 @@ files:
 - name: __init__.py
   visible: false
   learner_created: false
-status: Unchecked
+status: Failed
+feedback:
+  message: Incorrect
+  time: "Thu, 15 Jun 2023 15:06:30 UTC"
+  expected: |
+    Вызван setter
+    Вызван setter
+    Вызван setter
+    Node(1, Node(2)) Node(2, None)
+  actual: |
+    Node(1, Node(2)) Node(2, None)
 record: -1
