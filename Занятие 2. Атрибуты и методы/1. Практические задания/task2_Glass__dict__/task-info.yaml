@@ -4,7 +4,7 @@ files:
   visible: true
   placeholders:
   - offset: 144
-    length: 130
+    length: 131
     placeholder_text: |-
       self.capacity_volume = capacity_volume  # объем стакана
               self.occupied_volume = occupied_volume  # объем жидкости в стакане
@@ -42,7 +42,7 @@ files:
 status: Failed
 feedback:
   message: Incorrect
-  time: Wed, 14 Jun 2023 07:04:22 UTC
+  time: Wed, 21 Jun 2023 18:17:06 UTC
   expected: |
     {}
     {'capacity_volume': 200, 'occupied_volume': 100}

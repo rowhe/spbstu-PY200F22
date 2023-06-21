@@ -4,7 +4,7 @@ files:
   visible: true
   placeholders:
   - offset: 0
-    length: 1361
+    length: 1373
     placeholder_text: '# TODO Добавить методы add_water и remove_water'
     dependency:
       section: Основы ООП
@@ -27,6 +27,6 @@ files:
   learner_created: false
 status: Solved
 feedback:
-  time: Thu, 15 Jun 2023 11:36:48 UTC
+  time: Mon, 19 Jun 2023 10:32:50 UTC
 record: -1
 post_submission_on_open: true

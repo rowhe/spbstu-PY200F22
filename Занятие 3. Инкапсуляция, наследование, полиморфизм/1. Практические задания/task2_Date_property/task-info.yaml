@@ -19,38 +19,37 @@ files:
           def is_leap_year(self, year: int) -> bool:
   - offset: 573
     length: 54
-    placeholder_text: "...  # TODO записать условие проверки високосного года"
+    placeholder_text: '...  # TODO записать условие проверки високосного года'
     initial_state:
       length: 54
       offset: 573
     initialized_from_dependency: false
     selected: false
     status: Solved
-    encrypted_possible_answer: "...  # TODO записать условие проверки високосного\
-      \ года"
+    encrypted_possible_answer: '...  # TODO записать условие проверки високосного
+      года'
   - offset: 777
     length: 53
-    placeholder_text: "...  # TODO вернуть количество дней указанного месяца"
+    placeholder_text: '...  # TODO вернуть количество дней указанного месяца'
     initial_state:
       length: 53
       offset: 777
     initialized_from_dependency: false
     selected: false
     status: Solved
-    encrypted_possible_answer: "...  # TODO вернуть количество дней указанного мес\
-      яца"
+    encrypted_possible_answer: '...  # TODO вернуть количество дней указанного месяца'
   - offset: 963
     length: 88
-    placeholder_text: "...  # TODO если указанный набор день, месяц и год неверны\
-      , то вызвать ошибку ValueError"
+    placeholder_text: '...  # TODO если указанный набор день, месяц и год неверны,
+      то вызвать ошибку ValueError'
     initial_state:
       length: 88
       offset: 963
     initialized_from_dependency: false
     selected: false
     status: Solved
-    encrypted_possible_answer: "...  # TODO если указанный набор день, месяц и год\
-      \ неверны, то вызвать ошибку ValueError"
+    encrypted_possible_answer: '...  # TODO если указанный набор день, месяц и год
+      неверны, то вызвать ошибку ValueError'
   - offset: 1057
     length: 39
     placeholder_text: '# TODO записать getter и setter для дня'

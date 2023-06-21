@@ -31,7 +31,8 @@ class Glass:
     def remove_water(self, remove):
         self.occupied_volume -= remove
 
-    def check_values(self, capacity: int, occupied: int):
+    @staticmethod
+    def check_values(capacity: int, occupied: int):
         if capacity < occupied:
             raise ValueError
 

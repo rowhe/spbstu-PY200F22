@@ -4,14 +4,14 @@ files:
   visible: true
   placeholders:
   - offset: 0
-    length: 44
+    length: 39
     placeholder_text: '# TODO написать класс Glass согласно условию'
     initial_state:
       length: 44
       offset: 0
     initialized_from_dependency: false
-    selected: false
-    status: Unchecked
+    selected: true
+    status: Failed
     encrypted_possible_answer: '# TODO написать класс Glass согласно условию'
   text: |+
     # TODO написать класс Glass согласно условию
@@ -44,5 +44,8 @@ files:
 - name: __init__.py
   visible: false
   learner_created: false
-status: Unchecked
+status: Failed
+feedback:
+  message: Error
+  time: Wed, 21 Jun 2023 18:36:16 UTC
 record: -1

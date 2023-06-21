@@ -10,8 +10,8 @@ files:
       length: 58
       offset: 202
     initialized_from_dependency: false
-    selected: false
-    status: Failed
+    selected: true
+    status: Unchecked
     encrypted_possible_answer: '# TODO вызвать конструктор базового класса с помощью
       super'
   text: |
@@ -42,11 +42,5 @@ files:
 - name: __init__.py
   visible: false
   learner_created: false
-status: Failed
-feedback:
-  message: Incorrect
-  time: "Thu, 15 Jun 2023 14:58:43 UTC"
-  expected: |
-    rect_fig
-  actual: <no output>
+status: Unchecked
 record: -1
