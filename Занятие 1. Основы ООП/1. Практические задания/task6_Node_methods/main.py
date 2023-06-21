@@ -28,5 +28,5 @@ if __name__ == '__main__':
     second_node = Node(2)  # второй узел
 
     print(first_node.get_value())# с помощью метода распечатать значение первого узла
-    print(first_node.get_next())# с помощью метода распечатать следующий узел второго узла
-    print(first_node.__class__.__name__)
+    print(second_node.get_next())# с помощью метода распечатать следующий узел второго узла
+    # print(first_node.__class__.__name__)

@@ -15,4 +15,3 @@ class Glass:
 if __name__ == "__main__":
     glass = Glass("aasdfj")
     print(glass.get_material("гумага"))
-
