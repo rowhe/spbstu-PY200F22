@@ -10,8 +10,8 @@ files:
       length: 34
       offset: 0
     initialized_from_dependency: false
-    selected: false
-    status: Unchecked
+    selected: true
+    status: Solved
     encrypted_possible_answer: from abc import abstractmethod
   - offset: 88
     length: 40
@@ -21,7 +21,7 @@ files:
       offset: 88
     initialized_from_dependency: false
     selected: false
-    status: Unchecked
+    status: Solved
     encrypted_possible_answer: '@abstractmethod'
   - offset: 194
     length: 23
@@ -31,7 +31,7 @@ files:
       offset: 194
     initialized_from_dependency: false
     selected: false
-    status: Unchecked
+    status: Solved
     encrypted_possible_answer: '@abstractmethod'
   - offset: 431
     length: 56
@@ -41,19 +41,19 @@ files:
       offset: 431
     initialized_from_dependency: false
     selected: false
-    status: Unchecked
-    encrypted_possible_answer: Book, LibraryBookIn, LibraryBookOut
+    status: Solved
+    encrypted_possible_answer: "Book, LibraryBookIn, LibraryBookOut"
   - offset: 558
     length: 68
-    placeholder_text: '# TODO что нужно написать, так как Book и PhysicalBook очень
-      похожи?'
+    placeholder_text: "# TODO что нужно написать, так как Book и PhysicalBook очен\
+      ь похожи?"
     initial_state:
       length: 68
       offset: 558
     initialized_from_dependency: false
     selected: false
-    status: Unchecked
-    encrypted_possible_answer: super().__init__(title, author, ISBN)
+    status: Solved
+    encrypted_possible_answer: "super().__init__(title, author, ISBN)"
   - offset: 1141
     length: 17
     placeholder_text: '# TODO а что тут?'
@@ -62,8 +62,8 @@ files:
       offset: 1141
     initialized_from_dependency: false
     selected: false
-    status: Unchecked
-    encrypted_possible_answer: Book, LibraryBookOut
+    status: Solved
+    encrypted_possible_answer: "Book, LibraryBookOut"
   - offset: 1240
     length: 71
     placeholder_text: '# TODO как произвести расширение конструктора на базе какого-то
@@ -73,8 +73,8 @@ files:
       offset: 1240
     initialized_from_dependency: false
     selected: false
-    status: Unchecked
-    encrypted_possible_answer: super().__init__(title, author, ISBN)
+    status: Solved
+    encrypted_possible_answer: "super().__init__(title, author, ISBN)"
   - offset: 1476
     length: 26
     placeholder_text: '# TODO разделяем интерфейс'
@@ -83,8 +83,8 @@ files:
       offset: 1476
     initialized_from_dependency: false
     selected: false
-    status: Unchecked
-    encrypted_possible_answer: Book, LibraryBookOut
+    status: Solved
+    encrypted_possible_answer: "Book, LibraryBookOut"
   - offset: 1584
     length: 23
     placeholder_text: '# TODO аналогично Ebook'
@@ -93,8 +93,8 @@ files:
       offset: 1584
     initialized_from_dependency: false
     selected: false
-    status: Unchecked
-    encrypted_possible_answer: super().__init__(title, author, ISBN)
+    status: Solved
+    encrypted_possible_answer: "super().__init__(title, author, ISBN)"
   - offset: 1958
     length: 22
     placeholder_text: '# TODO добавляем книги'
@@ -103,19 +103,20 @@ files:
       offset: 1958
     initialized_from_dependency: false
     selected: false
-    status: Unchecked
+    status: Solved
     encrypted_possible_answer: self.books.append(book)
   - offset: 2070
     length: 114
-    placeholder_text: '# ранее писали book.ISBN == ISBN, а что теперь нужно добавить
-      к прошлой записи, чтобы обработать нужный интерфейс?'
+    placeholder_text: "# ранее писали book.ISBN == ISBN, а что теперь нужно добави\
+      ть к прошлой записи, чтобы обработать нужный интерфейс?"
     initial_state:
       length: 114
       offset: 2070
     initialized_from_dependency: false
     selected: false
-    status: Unchecked
-    encrypted_possible_answer: isinstance(book, LibraryBookOut) and book.ISBN == ISBN
+    status: Solved
+    encrypted_possible_answer: "isinstance(book, LibraryBookOut) and book.ISBN ==\
+      \ ISBN"
   - offset: 2364
     length: 37
     placeholder_text: '# дописать проверку для cheek_in_book'
@@ -124,8 +125,8 @@ files:
       offset: 2364
     initialized_from_dependency: false
     selected: false
-    status: Unchecked
-    encrypted_possible_answer: isinstance(book, LibraryBookIn) and book.ISBN == ISBN
+    status: Solved
+    encrypted_possible_answer: "isinstance(book, LibraryBookIn) and book.ISBN == ISBN"
   text: |
     # TODO загрузить абстрактный метод
     from typing import Union
@@ -225,6 +226,6 @@ files:
 - name: __init__.py
   visible: false
   learner_created: false
-status: Unchecked
+status: Solved
 record: -1
 post_submission_on_open: true

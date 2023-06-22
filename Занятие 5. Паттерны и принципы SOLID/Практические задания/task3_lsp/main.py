@@ -1,5 +1,5 @@
 from abc import ABC, abstractmethod
-
+""" Наследующий класс должен дополнять, а не заменять родительский класс"""
 
 class Book(ABC):
     def __init__(self, title: str, author: str, ISBN: str):
