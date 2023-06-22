@@ -12,6 +12,20 @@ files:
 - name: __init__.py
   visible: false
   learner_created: false
+- name: lamp.py
+  visible: true
+  learner_created: true
+- name: chair.py
+  visible: true
+  learner_created: true
+- name: table.py
+  visible: true
+  learner_created: true
+- name: example.py
+  visible: true
+  learner_created: true
 status: Solved
+feedback:
+  time: Wed, 21 Jun 2023 19:14:54 UTC
 record: -1
 post_submission_on_open: true

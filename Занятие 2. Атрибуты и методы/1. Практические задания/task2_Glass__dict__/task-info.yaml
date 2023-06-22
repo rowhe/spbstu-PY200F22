@@ -4,7 +4,7 @@ files:
   visible: true
   placeholders:
   - offset: 144
-    length: 130
+    length: 131
     placeholder_text: |-
       self.capacity_volume = capacity_volume  # объем стакана
               self.occupied_volume = occupied_volume  # объем жидкости в стакане
@@ -12,7 +12,7 @@ files:
       length: 130
       offset: 144
     initialized_from_dependency: false
-    selected: false
+    selected: true
     status: Failed
     encrypted_possible_answer: |-
       self.capacity_volume = capacity_volume  # объем стакана
@@ -42,7 +42,7 @@ files:
 status: Failed
 feedback:
   message: Incorrect
-  time: Mon, 05 Jun 2023 08:47:53 UTC
+  time: Wed, 21 Jun 2023 18:17:06 UTC
   expected: |
     {}
     {'capacity_volume': 200, 'occupied_volume': 100}

@@ -18,6 +18,7 @@ class Node:
     def __repr__(self) -> str:
         return f"Node({self.value}, {self.next})"
 
+
     def is_valid(self, node: Any) -> None:
         if not isinstance(node, (type(None), Node)):
             raise TypeError
@@ -34,14 +35,25 @@ def linked_nodes(left_node: Node, right_node: Optional["Node"] = None) -> None:
     :param left_node: Левый или предыдущий узел
     :param right_node: Правый или следующий узел
     """
-    ...  # TODO реализовать функцию
+    left_node.set_next(right_node)  #  реализовать функцию
 
 
 if __name__ == '__main__':
     first_node = Node(1)
     second_node = Node(2)
 
-    ...  # TODO связать между собой два узла с помощью функции linked_nodes
+    first_node.set_next(second_node)  # связать между собой два узла с помощью функции linked_nodes
 
     print(first_node)
     print(second_node)
+    # list_nodes = [Node(value) for value in range(10)]
+    # print(list_nodes)
+    #
+    # for i in range(len(list_nodes) - 1):
+    #     current_node = list_nodes[i]
+    #     next_node = list_nodes[i+1]
+    #     linked_nodes(current_node, next_node)
+    #
+    # print(list_nodes)
+
+

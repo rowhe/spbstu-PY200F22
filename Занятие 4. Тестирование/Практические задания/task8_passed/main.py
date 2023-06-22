@@ -10,11 +10,11 @@ class TestMyClass(unittest.TestCase):
 
     def setUp(self):
         print("setUp")
-        self.my_list = MyClass() # Определили данные для тестов
+        self.my_list = MyClass()  # Определили данные для тестов
 
     def tearDown(self):
         print("tearDown")
-        self.my_list.clear() # Очистили после каждого теста
+        self.my_list.clear()  # Очистили после каждого теста
 
     @unittest.skip("Тест пропущен по причине ...")
     def test_case_append(self):

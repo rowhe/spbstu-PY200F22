@@ -101,7 +101,7 @@ files:
       offset: 56
     initialized_from_dependency: false
     selected: false
-    status: Unchecked
+    status: Solved
     encrypted_possible_answer: '...):  # TODO наследоваться от unittest.TestCase'
   - offset: 247
     length: 66
@@ -112,7 +112,7 @@ files:
       offset: 247
     initialized_from_dependency: false
     selected: false
-    status: Unchecked
+    status: Solved
     encrypted_possible_answer: '...  # TODO с помощью метода assertIsNone проверить
       следующий узел'
   - offset: 452
@@ -123,7 +123,7 @@ files:
       offset: 452
     initialized_from_dependency: false
     selected: false
-    status: Unchecked
+    status: Solved
     encrypted_possible_answer: '...  # TODO проверить что узлы связались'
   - offset: 623
     length: 56
@@ -133,7 +133,7 @@ files:
       offset: 623
     initialized_from_dependency: false
     selected: false
-    status: Unchecked
+    status: Solved
     encrypted_possible_answer: '...  # TODO проверить метод __repr__ без следующего
       узла'
   - offset: 685
@@ -144,7 +144,7 @@ files:
       offset: 685
     initialized_from_dependency: false
     selected: false
-    status: Unchecked
+    status: Solved
     encrypted_possible_answer: '...  # TODO пропустить тест с помощью декоратора unittest.skip'
   - offset: 973
     length: 40
@@ -154,7 +154,7 @@ files:
       offset: 973
     initialized_from_dependency: false
     selected: false
-    status: Unchecked
+    status: Solved
     encrypted_possible_answer: '# TODO проверить строковое представление'
   - offset: 1052
     length: 57
@@ -164,7 +164,7 @@ files:
       offset: 1052
     initialized_from_dependency: false
     selected: false
-    status: Unchecked
+    status: Solved
     encrypted_possible_answer: '...  # TODO проверить метод is_valid при корректных
       узлах'
   - offset: 1119
@@ -176,7 +176,7 @@ files:
       offset: 1119
     initialized_from_dependency: false
     selected: false
-    status: Unchecked
+    status: Solved
     encrypted_possible_answer: '# TODO с помощью менеджера контакста и метода assertRaises
       проверить корректность вызываемой ошибки'
   text: |
@@ -220,5 +220,8 @@ files:
 - name: __init__.py
   visible: false
   learner_created: false
-status: Unchecked
+status: Solved
+feedback:
+  message: Congratulations!
+  time: Mon, 19 Jun 2023 10:30:56 UTC
 record: -1
