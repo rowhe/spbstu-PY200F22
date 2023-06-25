@@ -18,11 +18,17 @@ class Date:
 
     def set_day(self, day: int):
         self.vali_date(day)
-        self.day = day
+        if day < 10:
+            self.day = f"0{day}"
+        else:
+            self.day = day
 
     def set_month(self, month: int):
         self.vali_date(month)
-        self.month = month
+        if month < 10:
+            self.month = f"0{month}"
+        else:
+            self.month = month
 
     def set_year(self, year: int):
         self.vali_date(year)
@@ -30,7 +36,7 @@ class Date:
 
     @staticmethod
     def vali_date(i: int):
-        if i is not isinstance(i, int):
+        if not isinstance(i, int):
             print(type(i))
             raise TypeError
 
