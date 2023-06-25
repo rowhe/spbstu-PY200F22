@@ -11,7 +11,7 @@ files:
       offset: 0
     initialized_from_dependency: false
     selected: false
-    status: Failed
+    status: Solved
     encrypted_possible_answer: '# TODO написать класс Glass согласно условию'
   text: |+
     # TODO написать класс Glass согласно условию
@@ -44,8 +44,8 @@ files:
 - name: __init__.py
   visible: false
   learner_created: false
-status: Failed
+status: Solved
 feedback:
-  message: Error
-  time: "Sun, 25 Jun 2023 08:52:01 UTC"
+  message: Congratulations!
+  time: "Sun, 25 Jun 2023 09:17:01 UTC"
 record: -1
