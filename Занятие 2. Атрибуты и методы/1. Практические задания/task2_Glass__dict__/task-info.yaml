@@ -3,7 +3,7 @@ files:
 - name: main.py
   visible: true
   placeholders:
-  - offset: 180
+  - offset: 173
     length: 130
     placeholder_text: |-
       self.capacity_volume = capacity_volume  # объем стакана
@@ -13,7 +13,7 @@ files:
       offset: 144
     initialized_from_dependency: false
     selected: true
-    status: Failed
+    status: Solved
     encrypted_possible_answer: |-
       self.capacity_volume = capacity_volume  # объем стакана
               self.occupied_volume = occupied_volume  # объем жидкости в стакане
@@ -39,12 +39,8 @@ files:
 - name: __init__.py
   visible: false
   learner_created: false
-status: Failed
+status: Solved
 feedback:
-  message: Incorrect
-  time: "Sun, 04 Jun 2023 16:34:01 UTC"
-  expected: |
-    {}
-    {'capacity_volume': 200, 'occupied_volume': 100}
-  actual: <no output>
+  message: Congratulations!
+  time: "Sun, 25 Jun 2023 10:47:32 UTC"
 record: -1
