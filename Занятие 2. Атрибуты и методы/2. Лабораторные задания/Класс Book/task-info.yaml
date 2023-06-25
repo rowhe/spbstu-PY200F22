@@ -18,7 +18,7 @@ files:
       offset: 188
     initialized_from_dependency: false
     selected: false
-    status: Unchecked
+    status: Failed
     encrypted_possible_answer: |-
       class Book:
           ...
@@ -53,5 +53,13 @@ files:
 - name: __init__.py
   visible: false
   learner_created: false
-status: Unchecked
+status: Failed
+feedback:
+  message: Incorrect
+  time: "Sun, 25 Jun 2023 08:50:16 UTC"
+  expected: |
+    Книга "test_name_1"
+    Книга "test_name_2"
+    [Book(id_=1, name='test_name_1', pages=200), Book(id_=2, name='test_name_2', pages=400)]
+  actual: <no output>
 record: -1

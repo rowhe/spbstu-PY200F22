@@ -11,7 +11,7 @@ files:
       offset: 1740
     initialized_from_dependency: false
     selected: false
-    status: Unchecked
+    status: Failed
     encrypted_possible_answer: '# TODO реализовать магический метод __setitem__'
   - offset: 2186
     length: 52
@@ -21,7 +21,7 @@ files:
       offset: 2186
     initialized_from_dependency: false
     selected: false
-    status: Unchecked
+    status: Failed
     encrypted_possible_answer: '# TODO установить элементу с индексом 1 значение 100'
   text: |
     from typing import Iterable, Optional, Any
@@ -151,5 +151,16 @@ files:
 - name: __init__.py
   visible: false
   learner_created: false
-status: Unchecked
+status: Failed
+feedback:
+  message: Incorrect
+  time: "Sun, 25 Jun 2023 08:52:27 UTC"
+  expected: |
+    [1, 2, 3]
+    2
+    100
+  actual: |
+    [1, 2, 3]
+    2
+    2
 record: -1

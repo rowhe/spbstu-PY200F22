@@ -5,14 +5,14 @@ files:
   placeholders:
   - offset: 1391
     length: 36
-    placeholder_text: '...  # TODO подставьте нужную ошибку'
+    placeholder_text: "...  # TODO подставьте нужную ошибку"
     initial_state:
       length: 36
       offset: 1391
     initialized_from_dependency: false
     selected: false
-    status: Unchecked
-    encrypted_possible_answer: '...  # TODO подставьте нужную ошибку'
+    status: Failed
+    encrypted_possible_answer: "...  # TODO подставьте нужную ошибку"
   - offset: 1692
     length: 6
     placeholder_text: '# TODO'
@@ -21,40 +21,42 @@ files:
       offset: 1692
     initialized_from_dependency: false
     selected: false
-    status: Unchecked
+    status: Failed
     encrypted_possible_answer: '# TODO'
   - offset: 1739
     length: 63
-    placeholder_text: '...  # TODO Метод to_list реализовать через list comprehension.'
+    placeholder_text: "...  # TODO Метод to_list реализовать через list comprehension."
     initial_state:
       length: 63
       offset: 1739
     initialized_from_dependency: false
     selected: false
-    status: Unchecked
-    encrypted_possible_answer: '...  # TODO Метод to_list реализовать через list comprehension.'
+    status: Failed
+    encrypted_possible_answer: "...  # TODO Метод to_list реализовать через list comprehension."
   - offset: 1843
     length: 61
-    placeholder_text: '...  # TODO c помощью метода to_list реализовать данный метод'
+    placeholder_text: "...  # TODO c помощью метода to_list реализовать данный мет\
+      од"
     initial_state:
       length: 61
       offset: 1843
     initialized_from_dependency: false
     selected: false
-    status: Unchecked
-    encrypted_possible_answer: '...  # TODO c помощью метода to_list реализовать данный
-      метод'
+    status: Failed
+    encrypted_possible_answer: "...  # TODO c помощью метода to_list реализовать д\
+      анный метод"
   - offset: 1944
     length: 61
-    placeholder_text: '...  # TODO c помощью метода to_list реализовать данный метод'
+    placeholder_text: "...  # TODO c помощью метода to_list реализовать данный мет\
+      од"
     initial_state:
       length: 61
       offset: 1944
     initialized_from_dependency: false
     selected: false
-    status: Unchecked
-    encrypted_possible_answer: '...  # TODO c помощью метода to_list реализовать данный
-      метод'
+    status: Failed
+    encrypted_possible_answer: "...  # TODO c помощью метода to_list реализовать д\
+      анный метод"
   text: |
     from typing import Iterable, Optional, Any
 
@@ -177,5 +179,12 @@ files:
 - name: __init__.py
   visible: false
   learner_created: false
-status: Unchecked
+status: Failed
+feedback:
+  message: Incorrect
+  time: "Sun, 25 Jun 2023 08:52:23 UTC"
+  expected: |
+    [1, 2, 3]
+    LinkedList([1, 2, 3])
+  actual: <no output>
 record: -1

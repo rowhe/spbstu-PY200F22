@@ -4,28 +4,28 @@ files:
   visible: true
   placeholders:
   - offset: 628
-    length: 77
-    placeholder_text: '...  # TODO метод должен возвращать значение текущего узла'
+    length: 58
+    placeholder_text: "...  # TODO метод должен возвращать значение текущего узла"
     initial_state:
       length: 58
       offset: 628
     initialized_from_dependency: false
-    selected: true
+    selected: false
     status: Solved
-    encrypted_possible_answer: '...  # TODO метод должен возвращать значение текущего
-      узла'
-  - offset: 1344
-    length: 64
-    placeholder_text: '# TODO реализуйте алгоритм, который свяжет между собой узлы
-      в списке'
+    encrypted_possible_answer: "...  # TODO метод должен возвращать значение текущ\
+      его узла"
+  - offset: 1325
+    length: 68
+    placeholder_text: "# TODO реализуйте алгоритм, который свяжет между собой узлы\
+      \ в списке"
     initial_state:
       length: 68
       offset: 1325
     initialized_from_dependency: false
-    selected: true
+    selected: false
     status: Solved
-    encrypted_possible_answer: '# TODO реализуйте алгоритм, который свяжет между собой
-      узлы в списке'
+    encrypted_possible_answer: "# TODO реализуйте алгоритм, который свяжет между с\
+      обой узлы в списке"
   text: |
     from typing import Any, Optional
 
@@ -89,5 +89,5 @@ files:
 status: Solved
 feedback:
   message: Congratulations!
-  time: Wed, 14 Jun 2023 12:34:50 UTC
+  time: "Sun, 25 Jun 2023 08:51:49 UTC"
 record: -1

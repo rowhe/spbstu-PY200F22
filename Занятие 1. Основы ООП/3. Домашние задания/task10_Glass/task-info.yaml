@@ -4,13 +4,13 @@ files:
   visible: true
   placeholders:
   - offset: 0
-    length: 39
+    length: 44
     placeholder_text: '# TODO написать класс Glass согласно условию'
     initial_state:
       length: 44
       offset: 0
     initialized_from_dependency: false
-    selected: true
+    selected: false
     status: Failed
     encrypted_possible_answer: '# TODO написать класс Glass согласно условию'
   text: |+
@@ -47,5 +47,5 @@ files:
 status: Failed
 feedback:
   message: Error
-  time: Wed, 21 Jun 2023 19:20:20 UTC
+  time: "Sun, 25 Jun 2023 08:52:01 UTC"
 record: -1

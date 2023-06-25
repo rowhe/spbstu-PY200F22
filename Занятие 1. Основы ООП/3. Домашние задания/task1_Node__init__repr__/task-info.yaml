@@ -4,7 +4,7 @@ files:
   visible: true
   placeholders:
   - offset: 371
-    length: 106
+    length: 68
     placeholder_text: |-
       # TODO  инициализировать атрибуты экземпляра класса Node
               ...
@@ -12,54 +12,54 @@ files:
       length: 68
       offset: 371
     initialized_from_dependency: false
-    selected: true
+    selected: false
     status: Solved
     encrypted_possible_answer: |-
       # TODO  инициализировать атрибуты экземпляра класса Node
               ...
-  - offset: 483
-    length: 55
+  - offset: 445
+    length: 60
     placeholder_text: '# TODO реализовать метод __repr__ для отображения экземпляра'
     initial_state:
       length: 60
       offset: 445
     initialized_from_dependency: false
-    selected: true
+    selected: false
     status: Solved
     encrypted_possible_answer: '# TODO реализовать метод __repr__ для отображения
       экземпляра'
-  - offset: 659
+  - offset: 552
     length: 40
-    placeholder_text: '...  # TODO инициализировать первый узел'
+    placeholder_text: "...  # TODO инициализировать первый узел"
     initial_state:
       length: 40
       offset: 552
     initialized_from_dependency: false
-    selected: true
+    selected: false
     status: Solved
-    encrypted_possible_answer: '...  # TODO инициализировать первый узел'
-  - offset: 719
-    length: 46
-    placeholder_text: '...  # TODO инициализировать второй узел'
+    encrypted_possible_answer: "...  # TODO инициализировать первый узел"
+  - offset: 612
+    length: 40
+    placeholder_text: "...  # TODO инициализировать второй узел"
     initial_state:
       length: 40
       offset: 612
     initialized_from_dependency: false
-    selected: true
+    selected: false
     status: Solved
-    encrypted_possible_answer: '...  # TODO инициализировать второй узел'
-  - offset: 789
-    length: 81
-    placeholder_text: '...  # TODO через атрибут экземпляра устанавливаем первому
-      узлу следующий узел'
+    encrypted_possible_answer: "...  # TODO инициализировать второй узел"
+  - offset: 675
+    length: 78
+    placeholder_text: "...  # TODO через атрибут экземпляра устанавливаем первому\
+      \ узлу следующий узел"
     initial_state:
       length: 78
       offset: 675
     initialized_from_dependency: false
-    selected: true
+    selected: false
     status: Solved
-    encrypted_possible_answer: '...  # TODO через атрибут экземпляра устанавливаем
-      первому узлу следующий узел'
+    encrypted_possible_answer: "...  # TODO через атрибут экземпляра устанавливаем\
+      \ первому узлу следующий узел"
   text: |
     from typing import Any, Optional
 
@@ -100,5 +100,5 @@ files:
 status: Solved
 feedback:
   message: Congratulations!
-  time: Wed, 21 Jun 2023 18:22:58 UTC
+  time: "Sun, 25 Jun 2023 08:51:37 UTC"
 record: -1

@@ -3,28 +3,28 @@ files:
 - name: task.py
   visible: true
   placeholders:
-  - offset: 1026
-    length: 54
-    placeholder_text: '...  # TODO реализовать функцию'
+  - offset: 1025
+    length: 31
+    placeholder_text: "...  # TODO реализовать функцию"
     initial_state:
       length: 31
       offset: 1025
     initialized_from_dependency: false
-    selected: true
+    selected: false
     status: Solved
-    encrypted_possible_answer: '...  # TODO реализовать функцию'
-  - offset: 1166
-    length: 95
-    placeholder_text: '...  # TODO связать между собой два узла с помощью функции
-      linked_nodes'
+    encrypted_possible_answer: "...  # TODO реализовать функцию"
+  - offset: 1142
+    length: 71
+    placeholder_text: "...  # TODO связать между собой два узла с помощью функции\
+      \ linked_nodes"
     initial_state:
       length: 71
       offset: 1142
     initialized_from_dependency: false
-    selected: true
+    selected: false
     status: Solved
-    encrypted_possible_answer: '...  # TODO связать между собой два узла с помощью
-      функции linked_nodes'
+    encrypted_possible_answer: "...  # TODO связать между собой два узла с помощью\
+      \ функции linked_nodes"
   text: |
     from typing import Any, Optional
 
@@ -86,5 +86,5 @@ files:
 status: Solved
 feedback:
   message: Congratulations!
-  time: Wed, 14 Jun 2023 08:11:36 UTC
+  time: "Sun, 25 Jun 2023 08:51:43 UTC"
 record: -1

@@ -3,14 +3,14 @@ files:
 - name: task.py
   visible: true
   placeholders:
-  - offset: 1
-    length: 975
+  - offset: 0
+    length: 17
     placeholder_text: '# TODO class Date'
     initial_state:
       length: 17
       offset: 0
     initialized_from_dependency: false
-    selected: true
+    selected: false
     status: Solved
     encrypted_possible_answer: '# TODO class Date'
   text: '# TODO class Date'
@@ -35,5 +35,5 @@ files:
 status: Solved
 feedback:
   message: Congratulations!
-  time: Wed, 21 Jun 2023 17:11:43 UTC
+  time: "Sun, 25 Jun 2023 08:51:58 UTC"
 record: -1
