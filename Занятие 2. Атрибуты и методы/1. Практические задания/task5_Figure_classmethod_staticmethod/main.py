@@ -4,7 +4,7 @@ import math
 class TriangleCalculator:
     """ Класс-калькулятор площадей треугольников. """
 
-    # TODO сделать методом класса
+    # сделать методом класса
     @classmethod
     def area(cls, *args):
         """
@@ -17,12 +17,12 @@ class TriangleCalculator:
             return cls.area_by_angle(*args)
 
     @staticmethod
-    def area_by_angle(a, b, angle):  # TODO сделать статическим методом
+    def area_by_angle(a, b, angle):  # сделать статическим методом
         """ Формула площади по двум сторонам и углу между ними. """
         return 0.5 * a * b * math.sin(angle)
 
     @staticmethod
-    def area_by_height(a, h):  # TODO сделать статическим методом
+    def area_by_height(a, h):  # сделать статическим методом
         """ Формула площади по основанию и высоте. """
         return 0.5 * a * h
 
