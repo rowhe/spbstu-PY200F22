@@ -6,7 +6,7 @@ class Glass:
         print(self.__dict__)
 
 if __name__ == "__main__":
-    glass = Glass(200, 0)
+    glass = Glass(200, 100)
     print(dir(glass))
     print(glass.__class__)
     print(glass.__dict__)
