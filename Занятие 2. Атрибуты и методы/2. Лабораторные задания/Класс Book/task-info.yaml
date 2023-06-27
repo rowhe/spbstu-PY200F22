@@ -11,14 +11,14 @@ files:
   visible: true
   placeholders:
   - offset: 188
-    length: 26
+    length: 21
     placeholder_text: '# TODO написать класс Book'
     initial_state:
       length: 26
       offset: 188
     initialized_from_dependency: false
-    selected: false
-    status: Failed
+    selected: true
+    status: Solved
     encrypted_possible_answer: |-
       class Book:
           ...
@@ -53,13 +53,8 @@ files:
 - name: __init__.py
   visible: false
   learner_created: false
-status: Failed
+status: Solved
 feedback:
-  message: Incorrect
-  time: "Sun, 25 Jun 2023 08:50:16 UTC"
-  expected: |
-    Книга "test_name_1"
-    Книга "test_name_2"
-    [Book(id_=1, name='test_name_1', pages=200), Book(id_=2, name='test_name_2', pages=400)]
-  actual: <no output>
+  message: Congratulations!
+  time: Tue, 27 Jun 2023 13:55:51 UTC
 record: -1

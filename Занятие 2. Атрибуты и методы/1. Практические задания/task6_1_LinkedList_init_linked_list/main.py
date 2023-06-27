@@ -10,8 +10,6 @@ class LinkedList:
         if data is not None:
             self.init_linked_list(data)
 
-
-
     def init_linked_list(self, data: Iterable):
         """ Метод, который создает вспомогательный список и связывает в нём узлы. """
         self.list_nodes = [Node(i) for i in data]  # обернуть все значения в класс Node и поместить их в python список

@@ -3,37 +3,37 @@ files:
 - name: main.py
   visible: true
   placeholders:
-  - offset: 431
+  - offset: 429
     length: 92
-    placeholder_text: "...  # TODO обернуть все значения в класс Node и поместить\
-      \ их в python список"
+    placeholder_text: '...  # TODO обернуть все значения в класс Node и поместить
+      их в python список'
     initial_state:
-      length: 77
-      offset: 429
+      length: 92
+      offset: 431
     initialized_from_dependency: false
     selected: true
-    status: Unchecked
-    encrypted_possible_answer: "...  # TODO обернуть все значения в класс Node и п\
-      оместить их в python список"
-  - offset: 533
+    status: Solved
+    encrypted_possible_answer: '...  # TODO обернуть все значения в класс Node и поместить
+      их в python список'
+  - offset: 531
     length: 42
-    placeholder_text: "# TODO составьте алгоритм, который свяжет узлы"
+    placeholder_text: '# TODO составьте алгоритм, который свяжет узлы'
     initial_state:
-      length: 46
-      offset: 516
+      length: 42
+      offset: 533
     initialized_from_dependency: false
     selected: true
-    status: Unchecked
-    encrypted_possible_answer: "# TODO составьте алгоритм, который свяжет узлы"
-  - offset: 702
+    status: Solved
+    encrypted_possible_answer: '# TODO составьте алгоритм, который свяжет узлы'
+  - offset: 700
     length: 32
     placeholder_text: '# TODO каким должен быть этот метод?'
     initial_state:
-      length: 36
-      offset: 568
+      length: 32
+      offset: 702
     initialized_from_dependency: false
     selected: true
-    status: Unchecked
+    status: Solved
     encrypted_possible_answer: '# TODO каким должен быть этот метод?'
   text: |
     from typing import Iterable, Optional
@@ -115,5 +115,8 @@ files:
 - name: __init__.py
   visible: false
   learner_created: false
-status: Unchecked
+status: Solved
+feedback:
+  message: Congratulations!
+  time: Tue, 27 Jun 2023 12:35:56 UTC
 record: -1

@@ -59,4 +59,4 @@ if __name__ == "__main__":
     print(linked_list)
 
     print(linked_list[1])
-    print(linked_list[0])
+    # print(linked_list[0])

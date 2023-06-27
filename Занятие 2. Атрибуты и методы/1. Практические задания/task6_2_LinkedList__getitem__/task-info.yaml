@@ -45,66 +45,65 @@ files:
   placeholders:
   - offset: 183
     length: 72
-    placeholder_text: "...  # TODO добавить указатель на первый элемент"
+    placeholder_text: '...  # TODO добавить указатель на первый элемент'
     initial_state:
-      length: 48
+      length: 72
       offset: 183
     initialized_from_dependency: false
     selected: true
-    status: Unchecked
-    encrypted_possible_answer: "...  # TODO добавить указатель на первый элемент"
+    status: Solved
+    encrypted_possible_answer: '...  # TODO добавить указатель на первый элемент'
   - offset: 557
     length: 78
-    placeholder_text: "...  # TODO инициализировать указатель на первый элемент"
+    placeholder_text: '...  # TODO инициализировать указатель на первый элемент'
     initial_state:
-      length: 56
-      offset: 532
+      length: 78
+      offset: 557
     initialized_from_dependency: false
     selected: true
-    status: Unchecked
-    encrypted_possible_answer: "...  # TODO инициализировать указатель на первый э\
-      лемент"
+    status: Solved
+    encrypted_possible_answer: '...  # TODO инициализировать указатель на первый элемент'
   - offset: 1393
     length: 96
     placeholder_text: '# TODO проверка правильности типа индекса'
     initial_state:
-      length: 41
-      offset: 1346
+      length: 96
+      offset: 1393
     initialized_from_dependency: false
     selected: true
-    status: Unchecked
+    status: Solved
     encrypted_possible_answer: '# TODO проверка правильности типа индекса'
   - offset: 1514
     length: 42
-    placeholder_text: "...  # TODO чему равен начальный элемент?"
+    placeholder_text: '...  # TODO чему равен начальный элемент?'
     initial_state:
-      length: 41
-      offset: 1412
+      length: 42
+      offset: 1514
     initialized_from_dependency: false
     selected: true
-    status: Unchecked
-    encrypted_possible_answer: "...  # TODO чему равен начальный элемент?"
+    status: Solved
+    encrypted_possible_answer: '...  # TODO чему равен начальный элемент?'
   - offset: 1565
     length: 117
-    placeholder_text: "...  # TODO с помощью цикла for добраться до нужного узла"
+    placeholder_text: '...  # TODO с помощью цикла for добраться до нужного узла'
     initial_state:
-      length: 57
-      offset: 1462
+      length: 117
+      offset: 1565
     initialized_from_dependency: false
     selected: true
-    status: Unchecked
-    encrypted_possible_answer: "...  # TODO с помощью цикла for добраться до нужно\
-      го узла"
+    status: Solved
+    encrypted_possible_answer: '...  # TODO с помощью цикла for добраться до нужного
+      узла'
   - offset: 1886
     length: 58
-    placeholder_text: "...  # TODO метод должен возвращать значение узла"
+    placeholder_text: '...  # TODO метод должен возвращать значение узла'
     initial_state:
-      length: 49
-      offset: 1674
+      length: 58
+      offset: 1886
     initialized_from_dependency: false
     selected: true
-    status: Unchecked
-    encrypted_possible_answer: "...  # TODO метод должен возвращать значение узла"
+    status: Solved
+    encrypted_possible_answer: '...  # TODO метод должен возвращать значение узла'
   text: |
     from typing import Iterable, Optional, Any
 
@@ -167,5 +166,8 @@ files:
 - name: __init__.py
   visible: false
   learner_created: false
-status: Unchecked
+status: Solved
+feedback:
+  message: Congratulations!
+  time: Tue, 27 Jun 2023 12:33:44 UTC
 record: -1
