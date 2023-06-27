@@ -14,7 +14,8 @@ class Date:
 
     def is_leap_year(self, year: int):
         """Проверяет, является ли год високосным"""
-        ...  # TODO реализовать метод
+        if year % 4 == 0:  # TODO реализовать метод
+            return
 
     def get_max_day(self, month: int, year: int):
         """Возвращает максимальное количество дней в месяце для указанного года"""
@@ -23,3 +24,4 @@ class Date:
     def is_valid_date(self, day: int, month: int, year: int):
         """Проверяет, является ли дата корректной"""
         ...  # TODO проверить валидность даты
+

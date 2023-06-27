@@ -11,7 +11,7 @@ files:
       offset: 1992
     initialized_from_dependency: false
     selected: false
-    status: Unchecked
+    status: Failed
     encrypted_possible_answer: '...  # TODO проверка индекса'
   - offset: 2030
     length: 29
@@ -21,7 +21,7 @@ files:
       offset: 2030
     initialized_from_dependency: false
     selected: false
-    status: Unchecked
+    status: Failed
     encrypted_possible_answer: '...  # TODO алгоритм удаления'
   text: |
     from typing import Iterable, Optional, Any
@@ -165,5 +165,18 @@ files:
 - name: __init__.py
   visible: false
   learner_created: false
-status: Unchecked
+status: Failed
+feedback:
+  message: Incorrect
+  time: Tue, 27 Jun 2023 16:36:39 UTC
+  expected: |
+    [1, 2, 3]
+    [1, 3]
+    [1]
+    []
+  actual: |
+    [1, 2, 3]
+    [1, 2, 3]
+    [1, 2, 3]
+    [1, 2, 3]
 record: -1

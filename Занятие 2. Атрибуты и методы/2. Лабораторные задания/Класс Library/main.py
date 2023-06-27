@@ -1,3 +1,6 @@
+from typing import List
+from pydantic import BaseModel
+
 BOOKS_DATABASE = [
     {
         "id": 1,
@@ -12,10 +15,24 @@ BOOKS_DATABASE = [
 ]
 
 
-# TODO написать класс Book
+# написать класс Book
+class Book:
+    def __init__(self):
+        id_: int
+        name: str
+        pages: int
 
 
-# TODO написать класс Library
+# написать класс Library
+class Library(BaseModel):
+    def __init__(self):
+        books: List[Book] = []
+
+    def get_next_book_id(self):
+        if len
+
+
+
 
 
 if __name__ == '__main__':

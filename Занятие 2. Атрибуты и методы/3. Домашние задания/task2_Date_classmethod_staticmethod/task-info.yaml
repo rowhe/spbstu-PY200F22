@@ -4,37 +4,37 @@ files:
   visible: true
   placeholders:
   - offset: 513
-    length: 29
-    placeholder_text: "...  # TODO реализовать метод"
+    length: 62
+    placeholder_text: '...  # TODO реализовать метод'
     initial_state:
       length: 29
       offset: 513
     initialized_from_dependency: false
-    selected: false
+    selected: true
     status: Solved
-    encrypted_possible_answer: "...  # TODO реализовать метод"
-  - offset: 685
+    encrypted_possible_answer: '...  # TODO реализовать метод'
+  - offset: 718
     length: 103
-    placeholder_text: "...  # TODO используя атрибут класса DAY_OF_MONTH вернуть к\
-      оличество дней в запрашиваемом месяце и году"
+    placeholder_text: '...  # TODO используя атрибут класса DAY_OF_MONTH вернуть количество
+      дней в запрашиваемом месяце и году'
     initial_state:
       length: 103
       offset: 685
     initialized_from_dependency: false
-    selected: false
+    selected: true
     status: Solved
-    encrypted_possible_answer: "...  # TODO используя атрибут класса DAY_OF_MONTH\
-      \ вернуть количество дней в запрашиваемом месяце и году"
-  - offset: 913
+    encrypted_possible_answer: '...  # TODO используя атрибут класса DAY_OF_MONTH
+      вернуть количество дней в запрашиваемом месяце и году'
+  - offset: 946
     length: 37
-    placeholder_text: "...  # TODO проверить валидность даты"
+    placeholder_text: '...  # TODO проверить валидность даты'
     initial_state:
       length: 37
       offset: 913
     initialized_from_dependency: false
-    selected: false
+    selected: true
     status: Solved
-    encrypted_possible_answer: "...  # TODO проверить валидность даты"
+    encrypted_possible_answer: '...  # TODO проверить валидность даты'
   text: |
     class Date:
         """Класс для работы с датами"""
