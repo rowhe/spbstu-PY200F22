@@ -20,7 +20,7 @@ files:
       length: 52
       offset: 2186
     initialized_from_dependency: false
-    selected: false
+    selected: true
     status: Failed
     encrypted_possible_answer: '# TODO установить элементу с индексом 1 значение 100'
   text: |
@@ -154,7 +154,7 @@ files:
 status: Failed
 feedback:
   message: Incorrect
-  time: Tue, 27 Jun 2023 16:36:37 UTC
+  time: Wed, 28 Jun 2023 17:04:32 UTC
   expected: |
     [1, 2, 3]
     2

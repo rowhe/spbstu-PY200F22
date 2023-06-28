@@ -3,27 +3,27 @@ files:
 - name: main.py
   visible: true
   placeholders:
-  - offset: 1391
+  - offset: 1390
     length: 36
     placeholder_text: '...  # TODO подставьте нужную ошибку'
     initial_state:
       length: 36
       offset: 1391
     initialized_from_dependency: false
-    selected: false
+    selected: true
     status: Failed
     encrypted_possible_answer: '...  # TODO подставьте нужную ошибку'
-  - offset: 1692
+  - offset: 1691
     length: 6
     placeholder_text: '# TODO'
     initial_state:
       length: 6
       offset: 1692
     initialized_from_dependency: false
-    selected: false
+    selected: true
     status: Failed
     encrypted_possible_answer: '# TODO'
-  - offset: 1739
+  - offset: 1738
     length: 63
     placeholder_text: '...  # TODO Метод to_list реализовать через list comprehension.'
     initial_state:
@@ -33,25 +33,25 @@ files:
     selected: true
     status: Failed
     encrypted_possible_answer: '...  # TODO Метод to_list реализовать через list comprehension.'
-  - offset: 1843
+  - offset: 1842
     length: 61
     placeholder_text: '...  # TODO c помощью метода to_list реализовать данный метод'
     initial_state:
       length: 61
       offset: 1843
     initialized_from_dependency: false
-    selected: false
+    selected: true
     status: Failed
     encrypted_possible_answer: '...  # TODO c помощью метода to_list реализовать данный
       метод'
-  - offset: 1944
+  - offset: 1943
     length: 61
     placeholder_text: '...  # TODO c помощью метода to_list реализовать данный метод'
     initial_state:
       length: 61
       offset: 1944
     initialized_from_dependency: false
-    selected: false
+    selected: true
     status: Failed
     encrypted_possible_answer: '...  # TODO c помощью метода to_list реализовать данный
       метод'

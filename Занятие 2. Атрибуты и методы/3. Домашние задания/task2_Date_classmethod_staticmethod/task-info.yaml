@@ -3,8 +3,8 @@ files:
 - name: main.py
   visible: true
   placeholders:
-  - offset: 513
-    length: 62
+  - offset: 565
+    length: 215
     placeholder_text: '...  # TODO реализовать метод'
     initial_state:
       length: 29
@@ -13,8 +13,8 @@ files:
     selected: true
     status: Solved
     encrypted_possible_answer: '...  # TODO реализовать метод'
-  - offset: 718
-    length: 103
+  - offset: 923
+    length: 230
     placeholder_text: '...  # TODO используя атрибут класса DAY_OF_MONTH вернуть количество
       дней в запрашиваемом месяце и году'
     initial_state:
@@ -25,8 +25,8 @@ files:
     status: Solved
     encrypted_possible_answer: '...  # TODO используя атрибут класса DAY_OF_MONTH
       вернуть количество дней в запрашиваемом месяце и году'
-  - offset: 946
-    length: 37
+  - offset: 1278
+    length: 285
     placeholder_text: '...  # TODO проверить валидность даты'
     initial_state:
       length: 37
@@ -66,5 +66,7 @@ files:
   visible: false
   learner_created: false
 status: Solved
+feedback:
+  time: Wed, 28 Jun 2023 13:29:31 UTC
 record: -1
 post_submission_on_open: true
